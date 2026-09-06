@@ -1,8 +1,116 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
-  "record_count": 3,
+  "record_count": 23,
   "records": [
+    {
+      "id": "ae-ministry-of-industry-and-advanced-technology",
+      "country_code": "AE",
+      "name": "Ministry of Industry and Advanced Technology",
+      "acronym": "MoIAT",
+      "organization_type": "national-standards-body",
+      "website": "https://www.moiat.gov.ae/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "au-standards-australia",
+      "country_code": "AU",
+      "name": "Standards Australia",
+      "acronym": "SA",
+      "organization_type": "national-standards-body",
+      "website": "https://www.standards.org.au/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "be-bureau-for-standardisation",
+      "country_code": "BE",
+      "name": "Bureau for Standardisation",
+      "acronym": "NBN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.nbn.be/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "br-brazilian-association-of-technical-standards",
+      "country_code": "BR",
+      "name": "Associação Brasileira de Normas Técnicas",
+      "acronym": "ABNT",
+      "organization_type": "national-standards-body",
+      "website": "https://www.abnt.org.br/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ca-standards-council-of-canada",
+      "country_code": "CA",
+      "name": "Standards Council of Canada",
+      "acronym": "SCC",
+      "organization_type": "national-standards-body",
+      "website": "https://scc-ccn.ca/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "cn-standardization-administration-of-china",
+      "country_code": "CN",
+      "name": "Standardization Administration of China",
+      "acronym": "SAC",
+      "organization_type": "national-standards-body",
+      "website": "https://www.sac.gov.cn/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "de-din",
+      "country_code": "DE",
+      "name": "DIN German Institute for Standardization",
+      "acronym": "DIN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.din.de/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "es-spanish-association-for-standardization",
+      "country_code": "ES",
+      "name": "Spanish Association for Standardization",
+      "acronym": "UNE",
+      "organization_type": "national-standards-body",
+      "website": "https://www.une.org/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "fr-french-standardization-association",
+      "country_code": "FR",
+      "name": "French Standardization Association",
+      "acronym": "AFNOR",
+      "organization_type": "national-standards-body",
+      "website": "https://www.afnor.org/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
     {
       "id": "gb-british-standards-institution",
       "country_code": "GB",
@@ -10,6 +118,114 @@
       "acronym": "BSI",
       "organization_type": "national-standards-body",
       "website": "https://www.bsigroup.com/en-GB/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "id-national-standardization-agency",
+      "country_code": "ID",
+      "name": "National Standardization Agency of Indonesia",
+      "acronym": "BSN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.bsn.go.id/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "in-bureau-of-indian-standards",
+      "country_code": "IN",
+      "name": "Bureau of Indian Standards",
+      "acronym": "BIS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.bis.gov.in/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "it-italian-standardization-body",
+      "country_code": "IT",
+      "name": "Ente Italiano di Normazione",
+      "acronym": "UNI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.uni.com/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "jp-japanese-industrial-standards-committee",
+      "country_code": "JP",
+      "name": "Japanese Industrial Standards Committee",
+      "acronym": "JISC",
+      "organization_type": "national-standards-body",
+      "website": "https://www.jisc.go.jp/eng/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "kr-korean-agency-for-technology-and-standards",
+      "country_code": "KR",
+      "name": "Korean Agency for Technology and Standards",
+      "acronym": "KATS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.kats.go.kr/en/main.do",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "mx-general-bureau-of-standards",
+      "country_code": "MX",
+      "name": "General Bureau of Standards",
+      "acronym": "DGN",
+      "organization_type": "national-standards-body",
+      "website": "https://platiica.economia.gob.mx/estandarizacion/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "nl-royal-netherlands-standardization-institute",
+      "country_code": "NL",
+      "name": "Royal Netherlands Standardization Institute",
+      "acronym": "NEN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.nen.nl/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sa-saudi-standards-metrology-and-quality-organization",
+      "country_code": "SA",
+      "name": "Saudi Standards, Metrology and Quality Organization",
+      "acronym": "SASO",
+      "organization_type": "national-standards-body",
+      "website": "https://www.saso.gov.sa/en/pages/default.aspx",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sg-singapore-standards-council",
+      "country_code": "SG",
+      "name": "Singapore Standards Council, Enterprise Singapore",
+      "acronym": "SSC",
+      "organization_type": "national-standards-body",
+      "website": "https://www.enterprisesg.gov.sg/Grow-Your-Business/boost-capabilities/quality-and-standards/singapore-standards-council",
       "source_ids": [
         "iso-members"
       ],
@@ -34,6 +250,30 @@
       "acronym": "ANSI",
       "organization_type": "national-standards-body",
       "website": "https://www.ansi.org/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "vn-commission-for-standards-metrology-and-quality",
+      "country_code": "VN",
+      "name": "Commission for the Standards, Metrology and Quality of Viet Nam",
+      "acronym": "STAMEQ",
+      "organization_type": "national-standards-body",
+      "website": "https://tcvn.gov.vn/?lang=en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "za-south-african-bureau-of-standards",
+      "country_code": "ZA",
+      "name": "South African Bureau of Standards",
+      "acronym": "SABS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.sabs.co.za/",
       "source_ids": [
         "iso-members"
       ],

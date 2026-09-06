@@ -4,6 +4,7 @@ message: >-
   the attribution required by the license.
 title: FirmaPanel Trade Country Data
 type: dataset
+version: 0.2.0
 authors:
   - name: FirmaPanel
     website: https://firmapanel.com

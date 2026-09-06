@@ -8,9 +8,29 @@ principles for a versioned dataset.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-06
+
 ### Added
 
-- Initial `v0.1.0`-maturity snapshot as of 2026-09-06.
+- Verified customs-authority, official-trade-portal, trade-agency, and national
+  standards-body coverage for 20 additional major trading countries.
+- Direct raw JSON and CSV download links near the top of the README.
+- A dependency-free JavaScript consumption example for Node.js 18 and later.
+- Integrity checks ensuring that every published official resource is linked
+  from its matching country record.
+
+### Changed
+
+- Expanded complete four-category official-resource coverage from 3 to 23
+  countries.
+- Advanced the dataset envelope version to `0.2.0` without changing record
+  compatibility.
+
+## [0.1.0] - 2026-09-06
+
+### Added
+
+- Initial `v0.1.0` snapshot as of 2026-09-06.
 - 249 ISO 3166-1 country and area records, including 248 UN M49 joins.
 - Current tender currency-code arrays derived from Unicode CLDR 48.
 - Eleven typed trade-group and agreement records, including EU, EFTA, ASEAN,
@@ -26,7 +46,7 @@ principles for a versioned dataset.
 - Source, field, model, maintenance, licensing, and legal documentation.
 - Continuous integration, structured issue forms, and pull-request guidance.
 
-### Limitations
+### Known limitations
 
 - Official-resource coverage is intentionally limited to three reviewed
   countries in the initial snapshot.
@@ -36,3 +56,5 @@ principles for a versioned dataset.
   records consequently have no UN M49 regional assignment.
 
 [Unreleased]: https://github.com/FirmaPanel/trade-country-data/commits/main
+[0.2.0]: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.2.0
+[0.1.0]: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.1.0

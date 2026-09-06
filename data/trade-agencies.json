@@ -1,8 +1,163 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
-  "record_count": 3,
+  "record_count": 23,
   "records": [
+    {
+      "id": "ae-ministry-of-economy-and-tourism",
+      "country_code": "AE",
+      "name": "Ministry of Economy and Tourism",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.moet.gov.ae/en/home",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "ae-export-development"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "au-austrade",
+      "country_code": "AU",
+      "name": "Australian Trade and Investment Commission",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.austrade.gov.au/en",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "au-austrade"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "be-belgian-foreign-trade-agency",
+      "country_code": "BE",
+      "name": "Belgian Foreign Trade Agency",
+      "agency_type": "government-trade-agency",
+      "website": "https://abh-ace.be/en",
+      "services": [
+        "buyer-seller-matching",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "be-foreign-trade-agency"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "br-apexbrasil",
+      "country_code": "BR",
+      "name": "Brazilian Trade and Investment Promotion Agency",
+      "agency_type": "trade-and-investment",
+      "website": "https://apexbrasil.com.br/en",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "br-apex"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ca-trade-commissioner-service",
+      "country_code": "CA",
+      "name": "Trade Commissioner Service",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.tradecommissioner.gc.ca/en.html",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "ca-trade-commissioner"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "cn-ccpit",
+      "country_code": "CN",
+      "name": "China Council for the Promotion of International Trade",
+      "agency_type": "trade-promotion",
+      "website": "https://en.ccpit.org/",
+      "services": [
+        "buyer-seller-matching",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "cn-ccpit"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "de-germany-trade-and-invest",
+      "country_code": "DE",
+      "name": "Germany Trade and Invest",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.gtai.de/en/",
+      "services": [
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "de-gtai"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "es-icex",
+      "country_code": "ES",
+      "name": "ICEX Spain Export and Investment",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.icex.es/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "es-icex"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "fr-business-france",
+      "country_code": "FR",
+      "name": "Business France",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.businessfrance.fr/en",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "fr-business-france"
+      ],
+      "last_verified": "2026-09-06"
+    },
     {
       "id": "gb-department-for-business-and-trade",
       "country_code": "GB",
@@ -18,6 +173,162 @@
       ],
       "source_ids": [
         "uk-dbt"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "id-directorate-general-of-national-export-development",
+      "country_code": "ID",
+      "name": "Directorate General of National Export Development",
+      "agency_type": "government-trade-agency",
+      "website": "https://ditjenpen.kemendag.go.id/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "id-export-development"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "in-federation-of-indian-export-organisations",
+      "country_code": "IN",
+      "name": "Federation of Indian Export Organisations",
+      "agency_type": "trade-promotion",
+      "website": "https://fieo.org/en/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "in-fieo"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "it-italian-trade-agency",
+      "country_code": "IT",
+      "name": "Italian Trade Agency",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.ice.it/en/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "it-trade-agency"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "jp-jetro",
+      "country_code": "JP",
+      "name": "Japan External Trade Organization",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.jetro.go.jp/en/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "jp-jetro"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "kr-kotra",
+      "country_code": "KR",
+      "name": "Korea Trade-Investment Promotion Agency",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.kotra.or.kr/english/index.do",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "kr-kotra"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "mx-secretariat-of-economy",
+      "country_code": "MX",
+      "name": "Secretariat of Economy",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.gob.mx/se",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information"
+      ],
+      "source_ids": [
+        "mx-secretariat-economy"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "nl-netherlands-enterprise-agency",
+      "country_code": "NL",
+      "name": "Netherlands Enterprise Agency",
+      "agency_type": "government-trade-agency",
+      "website": "https://english.rvo.nl/international-business-and-export",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "nl-rvo"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sa-saudi-export-development-authority",
+      "country_code": "SA",
+      "name": "Saudi Export Development Authority",
+      "agency_type": "export-promotion",
+      "website": "https://www.saudiexports.gov.sa/en",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "sa-exports"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sg-enterprise-singapore",
+      "country_code": "SG",
+      "name": "Enterprise Singapore",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.enterprisesg.gov.sg/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "sg-enterprise"
       ],
       "last_verified": "2026-09-06"
     },
@@ -52,6 +363,40 @@
       ],
       "source_ids": [
         "us-trade-gov"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "vn-vietrade",
+      "country_code": "VN",
+      "name": "Viet Nam Trade Promotion Agency",
+      "agency_type": "trade-promotion",
+      "website": "https://vietrade.gov.vn/en/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "vn-vietrade"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "za-department-of-trade-industry-and-competition",
+      "country_code": "ZA",
+      "name": "Department of Trade, Industry and Competition",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.thedtic.gov.za/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "za-dtic"
       ],
       "last_verified": "2026-09-06"
     }

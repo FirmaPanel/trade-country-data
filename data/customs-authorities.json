@@ -1,8 +1,142 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
-  "record_count": 3,
+  "record_count": 23,
   "records": [
+    {
+      "id": "ae-federal-authority-icp",
+      "country_code": "AE",
+      "name": "Federal Authority for Identity, Citizenship, Customs and Port Security",
+      "authority_type": "border-and-customs-administration",
+      "website": "https://icp.gov.ae/en/about-icp/uae-customs-en/",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "source_ids": [
+        "ae-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "au-australian-border-force",
+      "country_code": "AU",
+      "name": "Australian Border Force",
+      "authority_type": "border-and-customs-administration",
+      "website": "https://www.abf.gov.au/importing-exporting-and-manufacturing",
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "au-abf"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "be-general-administration-of-customs-and-excise",
+      "country_code": "BE",
+      "name": "General Administration of Customs and Excise",
+      "authority_type": "customs-administration",
+      "website": "https://finance.belgium.be/en/customs_excises",
+      "languages": [
+        "de",
+        "en",
+        "fr",
+        "nl"
+      ],
+      "source_ids": [
+        "be-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "br-receita-federal",
+      "country_code": "BR",
+      "name": "Receita Federal do Brasil",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior",
+      "languages": [
+        "pt"
+      ],
+      "source_ids": [
+        "br-receita-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ca-canada-border-services-agency",
+      "country_code": "CA",
+      "name": "Canada Border Services Agency",
+      "authority_type": "border-and-customs-administration",
+      "website": "https://www.cbsa-asfc.gc.ca/menu-eng.html",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "source_ids": [
+        "ca-cbsa"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "cn-general-administration-of-customs",
+      "country_code": "CN",
+      "name": "General Administration of Customs of the People's Republic of China",
+      "authority_type": "customs-administration",
+      "website": "https://english.customs.gov.cn/",
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "source_ids": [
+        "cn-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "de-german-customs",
+      "country_code": "DE",
+      "name": "German Customs Administration",
+      "authority_type": "customs-administration",
+      "website": "https://www.zoll.de/EN/Home/home_node.html",
+      "languages": [
+        "de",
+        "en"
+      ],
+      "source_ids": [
+        "de-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "es-spanish-tax-agency-customs",
+      "country_code": "ES",
+      "name": "Spanish Tax Agency Customs Department",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://sede.agenciatributaria.gob.es/Sede/en_gb/aduanas.html",
+      "languages": [
+        "en",
+        "es"
+      ],
+      "source_ids": [
+        "es-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "fr-directorate-general-of-customs",
+      "country_code": "FR",
+      "name": "Directorate-General of Customs and Indirect Taxes",
+      "authority_type": "customs-administration",
+      "website": "https://www.douane.gouv.fr/",
+      "languages": [
+        "fr"
+      ],
+      "source_ids": [
+        "fr-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
     {
       "id": "gb-hm-revenue-and-customs",
       "country_code": "GB",
@@ -14,6 +148,139 @@
       ],
       "source_ids": [
         "uk-hmrc"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "id-directorate-general-of-customs-and-excise",
+      "country_code": "ID",
+      "name": "Directorate General of Customs and Excise",
+      "authority_type": "customs-administration",
+      "website": "https://www.beacukai.go.id/",
+      "languages": [
+        "en",
+        "id"
+      ],
+      "source_ids": [
+        "id-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "in-central-board-of-indirect-taxes-and-customs",
+      "country_code": "IN",
+      "name": "Central Board of Indirect Taxes and Customs",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.cbic.gov.in/",
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "source_ids": [
+        "in-cbic"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "it-customs-and-monopolies-agency",
+      "country_code": "IT",
+      "name": "Customs and Monopolies Agency",
+      "authority_type": "customs-administration",
+      "website": "https://www.adm.gov.it/portale/",
+      "languages": [
+        "en",
+        "it"
+      ],
+      "source_ids": [
+        "it-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "jp-japan-customs",
+      "country_code": "JP",
+      "name": "Japan Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.go.jp/english/",
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "source_ids": [
+        "jp-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "kr-korea-customs-service",
+      "country_code": "KR",
+      "name": "Korea Customs Service",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.go.kr/english/main.do",
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "source_ids": [
+        "kr-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "mx-national-customs-agency",
+      "country_code": "MX",
+      "name": "National Customs Agency of Mexico",
+      "authority_type": "customs-administration",
+      "website": "https://anam.gob.mx/",
+      "languages": [
+        "es"
+      ],
+      "source_ids": [
+        "mx-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "nl-customs-administration",
+      "country_code": "NL",
+      "name": "Customs Administration of the Netherlands",
+      "authority_type": "customs-administration",
+      "website": "https://www.douane.nl/en/",
+      "languages": [
+        "en",
+        "nl"
+      ],
+      "source_ids": [
+        "nl-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sa-zakat-tax-and-customs-authority",
+      "country_code": "SA",
+      "name": "Zakat, Tax and Customs Authority",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://zatca.gov.sa/en/Pages/default.aspx",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "source_ids": [
+        "sa-zatca"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sg-singapore-customs",
+      "country_code": "SG",
+      "name": "Singapore Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.gov.sg/",
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "sg-customs"
       ],
       "last_verified": "2026-09-06"
     },
@@ -43,6 +310,34 @@
       ],
       "source_ids": [
         "us-cbp"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "vn-viet-nam-customs",
+      "country_code": "VN",
+      "name": "Viet Nam Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.gov.vn/",
+      "languages": [
+        "vi"
+      ],
+      "source_ids": [
+        "vn-customs"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "za-south-african-revenue-service",
+      "country_code": "ZA",
+      "name": "South African Revenue Service",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.sars.gov.za/customs-and-excise/",
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "za-sars"
       ],
       "last_verified": "2026-09-06"
     }

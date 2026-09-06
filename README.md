@@ -7,6 +7,9 @@
 Trade-focused country reference data for procurement, logistics, customs,
 sourcing, and import-export software.
 
+**Direct downloads:** [Raw JSON](https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.json)
+· [Raw CSV](https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.csv)
+
 This project is not another general-purpose list of capitals, flags, calling
 codes, or time zones. It connects stable country identifiers to currencies,
 trade-group memberships, customs relationships, and verified official trade
@@ -33,7 +36,7 @@ that should be obtained from a current legal or operational source.
 
 ## Snapshot and coverage
 
-The current `v0.1.0`-maturity snapshot has an `as_of_date` of **2026-09-06**.
+The current `v0.2.0`-maturity snapshot has an `as_of_date` of **2026-09-06**.
 Coverage figures are calculated from the committed data:
 
 | Dataset area | Coverage |
@@ -45,13 +48,18 @@ Coverage figures are calculated from the committed data:
 | Country/customs-territory WTO members | 165 |
 | Trade groups and agreements | 11 |
 | Customs relationships | 5 |
-| Countries with a verified customs authority | 3 |
-| Countries with a verified official trade portal | 3 |
-| Countries with a verified trade agency | 3 |
-| Countries with a verified national standards body | 3 |
+| Countries with a verified customs authority | 23 |
+| Countries with a verified official trade portal | 23 |
+| Countries with a verified trade agency | 23 |
+| Countries with a verified national standards body | 23 |
 
 Official-resource coverage is intentionally conservative. Missing records use
 `null` or an empty array and never a fabricated placeholder.
+
+The reviewed official-resource set covers Australia, Belgium, Brazil, Canada,
+China, France, Germany, India, Indonesia, Italy, Japan, Mexico, the Netherlands,
+Saudi Arabia, Singapore, South Africa, South Korea, Spain, Türkiye, the United
+Arab Emirates, the United Kingdom, the United States, and Viet Nam.
 
 The `landlocked` field is also conservative in this release. The 32 entries
 marked `true` are supported by the UN M49 Land Locked Developing Countries
@@ -78,7 +86,7 @@ Every JSON file has the same dataset envelope:
 
 ```json
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
   "record_count": 249,
   "records": []
@@ -106,6 +114,24 @@ document = json.loads(Path("data/countries.json").read_text(encoding="utf-8"))
 turkiye = next(record for record in document["records"] if record["iso2"] == "TR")
 print(turkiye["trade_group_ids"])
 print(turkiye["customs_relationship_ids"])
+```
+
+Fetch the same canonical data in JavaScript (Node.js 18 or later):
+
+```javascript
+const url =
+  "https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.json";
+const response = await fetch(url);
+
+if (!response.ok) {
+  throw new Error(`Dataset request failed: ${response.status}`);
+}
+
+const { records } = await response.json();
+const turkiye = records.find((record) => record.iso2 === "TR");
+
+console.log(turkiye.trade_group_ids);
+console.log(turkiye.customs_relationship_ids);
 ```
 
 Or query the published JSON without cloning:

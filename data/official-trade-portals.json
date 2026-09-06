@@ -1,8 +1,189 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
-  "record_count": 3,
+  "record_count": 23,
   "records": [
+    {
+      "id": "ae-central-customs-tariff-system",
+      "country_code": "AE",
+      "name": "Central Customs Tariff System",
+      "portal_type": "tariff-lookup",
+      "website": "https://icp.gov.ae/en/central-customs-tariff-system/",
+      "topics": [
+        "customs",
+        "import",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "source_ids": [
+        "ae-customs-tariff"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "au-business-government-exporting",
+      "country_code": "AU",
+      "name": "Exporting and your business",
+      "portal_type": "export-guidance",
+      "website": "https://business.gov.au/products-and-services/exporting/exporting-and-your-business",
+      "topics": [
+        "export",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "au-export-guidance"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "be-belgian-foreign-trade-agency",
+      "country_code": "BE",
+      "name": "Belgian Foreign Trade Agency",
+      "portal_type": "trade-information",
+      "website": "https://abh-ace.be/en",
+      "topics": [
+        "export",
+        "market-information"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "nl"
+      ],
+      "source_ids": [
+        "be-foreign-trade-agency"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "br-siscomex",
+      "country_code": "BR",
+      "name": "Siscomex Portal",
+      "portal_type": "single-window",
+      "website": "https://www.gov.br/siscomex/pt-br/siscomex/",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [
+        "pt"
+      ],
+      "source_ids": [
+        "br-siscomex"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ca-trade-commissioner-service",
+      "country_code": "CA",
+      "name": "Trade Commissioner Service",
+      "portal_type": "export-guidance",
+      "website": "https://www.tradecommissioner.gc.ca/en.html",
+      "topics": [
+        "export",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "source_ids": [
+        "ca-trade-commissioner"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "cn-international-trade-single-window",
+      "country_code": "CN",
+      "name": "China International Trade Single Window",
+      "portal_type": "single-window",
+      "website": "https://www.singlewindow.cn/",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "zh"
+      ],
+      "source_ids": [
+        "cn-single-window"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "de-germany-trade-and-invest",
+      "country_code": "DE",
+      "name": "Germany Trade and Invest",
+      "portal_type": "trade-information",
+      "website": "https://www.gtai.de/en/",
+      "topics": [
+        "export",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "de",
+        "en"
+      ],
+      "source_ids": [
+        "de-gtai"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "es-icex",
+      "country_code": "ES",
+      "name": "ICEX Spain Export and Investment",
+      "portal_type": "trade-information",
+      "website": "https://www.icex.es/",
+      "topics": [
+        "export",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "es"
+      ],
+      "source_ids": [
+        "es-icex"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "fr-business-france-export",
+      "country_code": "FR",
+      "name": "Business France export services",
+      "portal_type": "export-guidance",
+      "website": "https://www.businessfrance.fr/en/our-expertise/exporting-around-the-world",
+      "topics": [
+        "export",
+        "market-information"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "source_ids": [
+        "fr-business-france"
+      ],
+      "last_verified": "2026-09-06"
+    },
     {
       "id": "gb-import-export-customs-guidance",
       "country_code": "GB",
@@ -21,6 +202,190 @@
       ],
       "source_ids": [
         "uk-import-export-guidance"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "id-indonesia-national-single-window",
+      "country_code": "ID",
+      "name": "Indonesia National Single Window",
+      "portal_type": "single-window",
+      "website": "https://www.insw.go.id/",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "id"
+      ],
+      "source_ids": [
+        "id-insw"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "in-directorate-general-of-foreign-trade",
+      "country_code": "IN",
+      "name": "Directorate General of Foreign Trade",
+      "portal_type": "trade-information",
+      "website": "https://www.dgft.gov.in/CP/",
+      "topics": [
+        "export",
+        "import",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "source_ids": [
+        "in-dgft"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "it-italian-trade-agency",
+      "country_code": "IT",
+      "name": "Italian Trade Agency",
+      "portal_type": "trade-information",
+      "website": "https://www.ice.it/en/",
+      "topics": [
+        "export",
+        "market-information"
+      ],
+      "languages": [
+        "en",
+        "it"
+      ],
+      "source_ids": [
+        "it-trade-agency"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "jp-jetro",
+      "country_code": "JP",
+      "name": "Japan External Trade Organization",
+      "portal_type": "trade-information",
+      "website": "https://www.jetro.go.jp/en/",
+      "topics": [
+        "export",
+        "import",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "source_ids": [
+        "jp-jetro"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "kr-kotra",
+      "country_code": "KR",
+      "name": "Korea Trade-Investment Promotion Agency",
+      "portal_type": "trade-information",
+      "website": "https://www.kotra.or.kr/english/index.do",
+      "topics": [
+        "export",
+        "import",
+        "market-information"
+      ],
+      "languages": [
+        "en",
+        "ko"
+      ],
+      "source_ids": [
+        "kr-kotra"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "mx-snice",
+      "country_code": "MX",
+      "name": "National Foreign Trade Information Service",
+      "portal_type": "trade-information",
+      "website": "https://www.snice.gob.mx/cs/avi/snice/home.html",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "standards",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [
+        "es"
+      ],
+      "source_ids": [
+        "mx-snice"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "nl-business-government-international",
+      "country_code": "NL",
+      "name": "Business.gov.nl international business",
+      "portal_type": "trade-information",
+      "website": "https://business.gov.nl/international/",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "nl"
+      ],
+      "source_ids": [
+        "nl-business-government"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sa-fasah",
+      "country_code": "SA",
+      "name": "FASAH",
+      "portal_type": "single-window",
+      "website": "https://www.fasah.sa/",
+      "topics": [
+        "customs",
+        "export",
+        "import"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "source_ids": [
+        "sa-fasah"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "sg-gobusiness-import-export",
+      "country_code": "SG",
+      "name": "GoBusiness import, export and transshipment",
+      "portal_type": "trade-information",
+      "website": "https://www.gobusiness.gov.sg/import-export-transshipment/",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "sg-gobusiness"
       ],
       "last_verified": "2026-09-06"
     },
@@ -59,6 +424,47 @@
       ],
       "source_ids": [
         "us-trade-gov"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "vn-viet-nam-trade-information-portal",
+      "country_code": "VN",
+      "name": "Viet Nam Trade Information Portal",
+      "portal_type": "trade-information",
+      "website": "https://www.vietnamtradeportal.gov.vn/",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en",
+        "vi"
+      ],
+      "source_ids": [
+        "vn-trade-portal"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "za-dtic-exports",
+      "country_code": "ZA",
+      "name": "Department of Trade, Industry and Competition export resources",
+      "portal_type": "export-guidance",
+      "website": "https://www.thedtic.gov.za/exports/",
+      "topics": [
+        "export",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "za-dtic"
       ],
       "last_verified": "2026-09-06"
     }

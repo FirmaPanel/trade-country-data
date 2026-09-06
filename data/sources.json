@@ -1,8 +1,67 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
-  "record_count": 27,
+  "record_count": 78,
   "records": [
+    {
+      "id": "ae-customs",
+      "title": "UAE Customs",
+      "authority": "Federal Authority for Identity, Citizenship, Customs and Port Security",
+      "url": "https://icp.gov.ae/en/about-icp/uae-customs-en/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "ae-customs-tariff",
+      "title": "Central Customs Tariff System",
+      "authority": "Federal Authority for Identity, Citizenship, Customs and Port Security",
+      "url": "https://icp.gov.ae/en/central-customs-tariff-system/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "ae-export-development",
+      "title": "UAE Export Development",
+      "authority": "United Arab Emirates Ministry of Economy and Tourism",
+      "url": "https://www.moet.gov.ae/en/web/guest/uae-export-development",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
     {
       "id": "afcfta-status",
       "title": "AfCFTA ratification status",
@@ -53,6 +112,306 @@
       "update_frequency": "before-release"
     },
     {
+      "id": "au-abf",
+      "title": "Who we are",
+      "authority": "Australian Border Force",
+      "url": "https://www.abf.gov.au/about-us/who-we-are",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "au-austrade",
+      "title": "About Austrade",
+      "authority": "Australian Trade and Investment Commission",
+      "url": "https://www.austrade.gov.au/en/about-austrade",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "au-export-guidance",
+      "title": "Exporting and your business",
+      "authority": "Australian Government",
+      "url": "https://business.gov.au/products-and-services/exporting/exporting-and-your-business",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "be-customs",
+      "title": "Customs and Excise",
+      "authority": "Belgian Federal Public Service Finance",
+      "url": "https://finance.belgium.be/en/customs_excises",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "be-foreign-trade-agency",
+      "title": "Belgian Foreign Trade Agency",
+      "authority": "Belgian Foreign Trade Agency",
+      "url": "https://abh-ace.be/en",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "br-apex",
+      "title": "ApexBrasil",
+      "authority": "Brazilian Trade and Investment Promotion Agency",
+      "url": "https://apexbrasil.com.br/en",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "br-receita-customs",
+      "title": "Customs and foreign trade",
+      "authority": "Receita Federal do Brasil",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "br-siscomex",
+      "title": "Siscomex Portal",
+      "authority": "Brazilian Federal Government",
+      "url": "https://www.gov.br/siscomex/pt-br/siscomex/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "ca-cbsa",
+      "title": "What we do",
+      "authority": "Canada Border Services Agency",
+      "url": "https://www.cbsa-asfc.gc.ca/agency-agence/what-quoi-eng.html",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "ca-trade-commissioner",
+      "title": "About the Trade Commissioner Service",
+      "authority": "Government of Canada",
+      "url": "https://www.tradecommissioner.gc.ca/en/about-us.html",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "cn-ccpit",
+      "title": "China Council for the Promotion of International Trade",
+      "authority": "China Council for the Promotion of International Trade",
+      "url": "https://en.ccpit.org/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "cn-customs",
+      "title": "General Administration of Customs",
+      "authority": "General Administration of Customs of the People's Republic of China",
+      "url": "https://english.customs.gov.cn/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "cn-single-window",
+      "title": "China International Trade Single Window",
+      "authority": "National Office of Port Administration",
+      "url": "https://www.singlewindow.cn/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "de-customs",
+      "title": "German Customs",
+      "authority": "German Customs Administration",
+      "url": "https://www.zoll.de/EN/Home/home_node.html",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "de-gtai",
+      "title": "Germany Trade and Invest",
+      "authority": "Germany Trade and Invest",
+      "url": "https://www.gtai.de/en/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
       "id": "debian-iso-codes",
       "title": "ISO 3166-1 data from iso-codes 4.20.1",
       "authority": "iso-codes project",
@@ -88,6 +447,47 @@
         "relationship_type"
       ],
       "update_frequency": "before-release"
+    },
+    {
+      "id": "es-customs",
+      "title": "Customs",
+      "authority": "Spanish Tax Agency",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/aduanas.html",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "es-icex",
+      "title": "ICEX Spain Export and Investment",
+      "authority": "ICEX Spain Export and Investment",
+      "url": "https://www.icex.es/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
     },
     {
       "id": "eu-customs-union",
@@ -141,6 +541,47 @@
         "scope_note"
       ],
       "update_frequency": "before-release"
+    },
+    {
+      "id": "fr-business-france",
+      "title": "Exporting around the world",
+      "authority": "Business France",
+      "url": "https://www.businessfrance.fr/en/our-expertise/exporting-around-the-world",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "fr-customs",
+      "title": "Import and export",
+      "authority": "French Directorate-General of Customs and Indirect Taxes",
+      "url": "https://www.douane.gouv.fr/professionnels/commerce-international/import-export/vous-souhaitez-exporter",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
     },
     {
       "id": "g20-members",
@@ -210,6 +651,124 @@
       "update_frequency": "before-release"
     },
     {
+      "id": "id-customs",
+      "title": "Directorate General of Customs and Excise",
+      "authority": "Ministry of Finance of the Republic of Indonesia",
+      "url": "https://www.beacukai.go.id/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "id-export-development",
+      "title": "Directorate General of National Export Development",
+      "authority": "Ministry of Trade of the Republic of Indonesia",
+      "url": "https://ditjenpen.kemendag.go.id/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "id-insw",
+      "title": "Indonesia National Single Window",
+      "authority": "Indonesia National Single Window Agency",
+      "url": "https://www.insw.go.id/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "in-cbic",
+      "title": "Central Board of Indirect Taxes and Customs",
+      "authority": "Department of Revenue, Ministry of Finance, Government of India",
+      "url": "https://www.cbic.gov.in/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "in-dgft",
+      "title": "Directorate General of Foreign Trade",
+      "authority": "Ministry of Commerce and Industry, Government of India",
+      "url": "https://www.dgft.gov.in/CP/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "in-fieo",
+      "title": "About the Federation of Indian Export Organisations",
+      "authority": "Federation of Indian Export Organisations",
+      "url": "https://fieo.org/view_section.php?id=0%2C5&lang=0",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
       "id": "iso-members",
       "title": "ISO members by country",
       "authority": "International Organization for Standardization",
@@ -230,6 +789,129 @@
       "update_frequency": "before-release"
     },
     {
+      "id": "it-customs",
+      "title": "Italian Customs and Monopolies Agency",
+      "authority": "Agenzia delle Dogane e dei Monopoli",
+      "url": "https://www.adm.gov.it/portale/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "it-trade-agency",
+      "title": "About the Italian Trade Agency",
+      "authority": "Italian Trade Agency",
+      "url": "https://www.ice.it/en/about-us",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "jp-customs",
+      "title": "Japan Customs",
+      "authority": "Ministry of Finance Japan",
+      "url": "https://www.customs.go.jp/english/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "jp-jetro",
+      "title": "About JETRO",
+      "authority": "Japan External Trade Organization",
+      "url": "https://www.jetro.go.jp/en/jetro/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "kr-customs",
+      "title": "Korea Customs Service",
+      "authority": "Korea Customs Service",
+      "url": "https://www.customs.go.kr/english/main.do",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "kr-kotra",
+      "title": "Korea Trade-Investment Promotion Agency",
+      "authority": "Korea Trade-Investment Promotion Agency",
+      "url": "https://www.kotra.or.kr/english/index.do",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
       "id": "mercosur-members",
       "title": "MERCOSUR countries",
       "authority": "Southern Common Market",
@@ -248,6 +930,183 @@
       "update_frequency": "before-release"
     },
     {
+      "id": "mx-customs",
+      "title": "National Customs Agency of Mexico",
+      "authority": "National Customs Agency of Mexico",
+      "url": "https://anam.gob.mx/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "mx-secretariat-economy",
+      "title": "Foreign trade",
+      "authority": "Secretariat of Economy of Mexico",
+      "url": "https://www.gob.mx/se/es/acciones-y-programas/comercio-exterior?idiom=es",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "mx-snice",
+      "title": "National Foreign Trade Information Service",
+      "authority": "Secretariat of Economy of Mexico",
+      "url": "https://www.snice.gob.mx/cs/avi/snice/home.html",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "nl-business-government",
+      "title": "International business",
+      "authority": "Netherlands Enterprise Agency",
+      "url": "https://business.gov.nl/international/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "nl-customs",
+      "title": "Customs Administration of the Netherlands",
+      "authority": "Customs Administration of the Netherlands",
+      "url": "https://www.douane.nl/en/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "nl-rvo",
+      "title": "Support for doing international business",
+      "authority": "Netherlands Enterprise Agency",
+      "url": "https://english.rvo.nl/topics/support-doing-international-business",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "sa-exports",
+      "title": "Saudi Exports",
+      "authority": "Saudi Export Development Authority",
+      "url": "https://www.saudiexports.gov.sa/en",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "sa-fasah",
+      "title": "FASAH",
+      "authority": "Saudi Company for Exchanging Information Electronically",
+      "url": "https://www.fasah.sa/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "sa-zatca",
+      "title": "Customs journey",
+      "authority": "Zakat, Tax and Customs Authority",
+      "url": "https://zatca.gov.sa/en/HelpCenter/CustomerJourney/Pages/customs-journey.aspx",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
       "id": "sacu-members",
       "title": "SACU member states",
       "authority": "Southern African Customs Union",
@@ -264,6 +1123,65 @@
         "scope_note"
       ],
       "update_frequency": "before-release"
+    },
+    {
+      "id": "sg-customs",
+      "title": "Singapore Customs",
+      "authority": "Singapore Customs",
+      "url": "https://www.customs.gov.sg/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "sg-enterprise",
+      "title": "Enterprise Singapore",
+      "authority": "Enterprise Singapore",
+      "url": "https://www.enterprisesg.gov.sg/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "sg-gobusiness",
+      "title": "Import, export and transshipment",
+      "authority": "Government of Singapore",
+      "url": "https://www.gobusiness.gov.sg/import-export-transshipment/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
     },
     {
       "id": "tr-customs-directorate",
@@ -481,6 +1399,65 @@
       "update_frequency": "before-release"
     },
     {
+      "id": "vn-customs",
+      "title": "Viet Nam Customs",
+      "authority": "Viet Nam Customs",
+      "url": "https://www.customs.gov.vn/index.jsp?CoQuanBH=27&pageid=241",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "vn-trade-portal",
+      "title": "Viet Nam Trade Information Portal",
+      "authority": "Ministry of Industry and Trade of Viet Nam",
+      "url": "https://www.vietnamtradeportal.gov.vn/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled portal type and topic values.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "vn-vietrade",
+      "title": "Viet Nam Trade Promotion Agency",
+      "authority": "Viet Nam Trade Promotion Agency",
+      "url": "https://vietrade.gov.vn/en/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization responsibilities summarized into controlled agency and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
       "id": "wto-members",
       "title": "WTO members and membership dates",
       "authority": "World Trade Organization",
@@ -497,6 +1474,47 @@
         "wto_member"
       ],
       "update_frequency": "before-release"
+    },
+    {
+      "id": "za-dtic",
+      "title": "Exports",
+      "authority": "Department of Trade, Industry and Competition of South Africa",
+      "url": "https://www.thedtic.gov.za/exports/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official portal and organization responsibilities summarized into controlled portal, topic, agency, and service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "za-sars",
+      "title": "Customs and Excise",
+      "authority": "South African Revenue Service",
+      "url": "https://www.sars.gov.za/customs-and-excise/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to a controlled customs-authority type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
     }
   ]
 }

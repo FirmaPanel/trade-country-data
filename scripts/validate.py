@@ -367,6 +367,9 @@ def validate_countries(
 ) -> None:
     iso3_values: list[str] = []
     numeric_values: list[str] = []
+    referenced_resources: dict[str, set[str]] = {
+        family: set() for family in resources
+    }
     for iso2, country in countries_by_code.items():
         location = f"country {iso2!r}"
         iso3 = country.get("iso3")
@@ -422,6 +425,8 @@ def validate_countries(
                     errors.append(f"{location}.{field} references unknown ID {resource_id!r}")
                 elif resource.get("country_code") != iso2:
                     errors.append(f"{location}.{field} references another country")
+                else:
+                    referenced_resources[family].add(resource_id)
         for field, family in array_refs:
             for resource_id in country.get(field, []):
                 resource = resources[family].get(resource_id)
@@ -429,10 +434,19 @@ def validate_countries(
                     errors.append(f"{location}.{field} references unknown ID {resource_id!r}")
                 elif resource.get("country_code") != iso2:
                     errors.append(f"{location}.{field} references another country")
+                else:
+                    referenced_resources[family].add(resource_id)
     if repeated := duplicates(iso3_values):
         errors.append(f"duplicate ISO alpha-3 values: {', '.join(repeated)}")
     if repeated := duplicates(numeric_values):
         errors.append(f"duplicate numeric codes: {', '.join(repeated)}")
+    for family, indexed_resources in resources.items():
+        orphaned = set(indexed_resources) - referenced_resources[family]
+        if orphaned:
+            errors.append(
+                f"{family} has resources not linked from countries: "
+                + ", ".join(sorted(orphaned))
+            )
 
 
 def validate_schema_metadata(errors: list[str]) -> None:

@@ -105,13 +105,22 @@ that all goods receive identical treatment.
 ## Official resources
 
 Official authorities, portals, agencies, and standards bodies are added only
-after their identity and website have been verified. This first snapshot has a
-small reviewed sample for Türkiye, the United Kingdom, and the United States.
+after their identity and website have been verified. The reviewed v0.2.0 set
+covers 23 countries across four resource categories: customs authority,
+official trade portal, trade agency, and national standards body.
+
+The coverage set comprises Australia, Belgium, Brazil, Canada, China, France,
+Germany, India, Indonesia, Italy, Japan, Mexico, the Netherlands, Saudi Arabia,
+Singapore, South Africa, South Korea, Spain, Türkiye, the United Arab Emirates,
+the United Kingdom, the United States, and Viet Nam. Each non-standards record
+cites a first-party government or organization page in `data/sources.json`.
+National standards-body identity is cross-checked against the
+[ISO members list](https://www.iso.org/about/members).
 
 Resource records contain a `last_verified` date. A working URL alone is not
 enough: the page must demonstrate the organization's role or the portal's
-official status. National standards-body identity is cross-checked against the
-[ISO members list](https://www.iso.org/about/members).
+official status. Coverage remains intentionally selective: a blank resource
+reference means not yet reviewed, not that the resource does not exist.
 
 ## Source registry fields
 

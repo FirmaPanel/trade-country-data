@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "as_of_date": "2026-09-06",
   "record_count": 249,
   "records": [
@@ -50,16 +50,24 @@
         "gcc-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "ae-federal-authority-icp",
+      "trade_portal_ids": [
+        "ae-central-customs-tariff-system"
+      ],
+      "trade_agency_ids": [
+        "ae-ministry-of-economy-and-tourism"
+      ],
+      "standards_body_id": "ae-ministry-of-industry-and-advanced-technology",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "ae-customs",
+        "ae-customs-tariff",
+        "ae-export-development",
         "debian-iso-codes",
         "gcc-customs-union",
         "gcc-members",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -389,15 +397,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "au-australian-border-force",
+      "trade_portal_ids": [
+        "au-business-government-exporting"
+      ],
+      "trade_agency_ids": [
+        "au-austrade"
+      ],
+      "standards_body_id": "au-standards-australia",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "au-abf",
+        "au-austrade",
+        "au-export-guidance",
         "debian-iso-codes",
         "g20-members",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -592,17 +608,24 @@
         "eu-turkiye-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "be-general-administration-of-customs-and-excise",
+      "trade_portal_ids": [
+        "be-belgian-foreign-trade-agency"
+      ],
+      "trade_agency_ids": [
+        "be-belgian-foreign-trade-agency"
+      ],
+      "standards_body_id": "be-bureau-for-standardisation",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "be-customs",
+        "be-foreign-trade-agency",
         "debian-iso-codes",
         "eu-customs-union",
         "eu-members",
         "eu-turkiye-trade",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -951,15 +974,23 @@
         "mercosur-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "br-receita-federal",
+      "trade_portal_ids": [
+        "br-siscomex"
+      ],
+      "trade_agency_ids": [
+        "br-apexbrasil"
+      ],
+      "standards_body_id": "br-brazilian-association-of-technical-standards",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "br-apex",
+        "br-receita-customs",
+        "br-siscomex",
         "debian-iso-codes",
         "g20-members",
+        "iso-members",
         "mercosur-members",
         "un-m49",
         "unicode-cldr",
@@ -1162,16 +1193,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "ca-canada-border-services-agency",
+      "trade_portal_ids": [
+        "ca-trade-commissioner-service"
+      ],
+      "trade_agency_ids": [
+        "ca-trade-commissioner-service"
+      ],
+      "standards_body_id": "ca-standards-council-of-canada",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "ca-cbsa",
+        "ca-trade-commissioner",
         "debian-iso-codes",
         "g20-members",
         "g7-members",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "usmca",
@@ -1486,15 +1524,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "cn-general-administration-of-customs",
+      "trade_portal_ids": [
+        "cn-international-trade-single-window"
+      ],
+      "trade_agency_ids": [
+        "cn-ccpit"
+      ],
+      "standards_body_id": "cn-standardization-administration-of-china",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "cn-ccpit",
+        "cn-customs",
+        "cn-single-window",
         "debian-iso-codes",
         "g20-members",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -1775,19 +1821,26 @@
         "eu-turkiye-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "de-german-customs",
+      "trade_portal_ids": [
+        "de-germany-trade-and-invest"
+      ],
+      "trade_agency_ids": [
+        "de-germany-trade-and-invest"
+      ],
+      "standards_body_id": "de-din",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
+        "de-customs",
+        "de-gtai",
         "debian-iso-codes",
         "eu-customs-union",
         "eu-members",
         "eu-turkiye-trade",
         "g20-members",
         "g7-members",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -2140,17 +2193,24 @@
         "eu-turkiye-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "es-spanish-tax-agency-customs",
+      "trade_portal_ids": [
+        "es-icex"
+      ],
+      "trade_agency_ids": [
+        "es-icex"
+      ],
+      "standards_body_id": "es-spanish-association-for-standardization",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
         "debian-iso-codes",
+        "es-customs",
+        "es-icex",
         "eu-customs-union",
         "eu-members",
         "eu-turkiye-trade",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -2361,10 +2421,14 @@
         "eu-turkiye-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "fr-directorate-general-of-customs",
+      "trade_portal_ids": [
+        "fr-business-france-export"
+      ],
+      "trade_agency_ids": [
+        "fr-business-france"
+      ],
+      "standards_body_id": "fr-french-standardization-association",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
@@ -2372,8 +2436,11 @@
         "eu-customs-union",
         "eu-members",
         "eu-turkiye-trade",
+        "fr-business-france",
+        "fr-customs",
         "g20-members",
         "g7-members",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -3184,16 +3251,24 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "id-directorate-general-of-customs-and-excise",
+      "trade_portal_ids": [
+        "id-indonesia-national-single-window"
+      ],
+      "trade_agency_ids": [
+        "id-directorate-general-of-national-export-development"
+      ],
+      "standards_body_id": "id-national-standardization-agency",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
         "asean-members",
         "debian-iso-codes",
         "g20-members",
+        "id-customs",
+        "id-export-development",
+        "id-insw",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -3311,15 +3386,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "in-central-board-of-indirect-taxes-and-customs",
+      "trade_portal_ids": [
+        "in-directorate-general-of-foreign-trade"
+      ],
+      "trade_agency_ids": [
+        "in-federation-of-indian-export-organisations"
+      ],
+      "standards_body_id": "in-bureau-of-indian-standards",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
         "debian-iso-codes",
         "g20-members",
+        "in-cbic",
+        "in-dgft",
+        "in-fieo",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -3464,10 +3547,14 @@
         "eu-turkiye-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "it-customs-and-monopolies-agency",
+      "trade_portal_ids": [
+        "it-italian-trade-agency"
+      ],
+      "trade_agency_ids": [
+        "it-italian-trade-agency"
+      ],
+      "standards_body_id": "it-italian-standardization-body",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
@@ -3477,6 +3564,9 @@
         "eu-turkiye-trade",
         "g20-members",
         "g7-members",
+        "iso-members",
+        "it-customs",
+        "it-trade-agency",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -3588,16 +3678,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "jp-japan-customs",
+      "trade_portal_ids": [
+        "jp-jetro"
+      ],
+      "trade_agency_ids": [
+        "jp-jetro"
+      ],
+      "standards_body_id": "jp-japanese-industrial-standards-committee",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
         "debian-iso-codes",
         "g20-members",
         "g7-members",
+        "iso-members",
+        "jp-customs",
+        "jp-jetro",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -3838,10 +3935,14 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "kr-korea-customs-service",
+      "trade_portal_ids": [
+        "kr-kotra"
+      ],
+      "trade_agency_ids": [
+        "kr-kotra"
+      ],
+      "standards_body_id": "kr-korean-agency-for-technology-and-standards",
       "landlocked": null,
       "aliases": [
         "Korea, Republic of",
@@ -3850,6 +3951,9 @@
       "source_ids": [
         "debian-iso-codes",
         "g20-members",
+        "iso-members",
+        "kr-customs",
+        "kr-kotra",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -4952,15 +5056,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "mx-national-customs-agency",
+      "trade_portal_ids": [
+        "mx-snice"
+      ],
+      "trade_agency_ids": [
+        "mx-secretariat-of-economy"
+      ],
+      "standards_body_id": "mx-general-bureau-of-standards",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
         "debian-iso-codes",
         "g20-members",
+        "iso-members",
+        "mx-customs",
+        "mx-secretariat-economy",
+        "mx-snice",
         "un-m49",
         "unicode-cldr",
         "usmca",
@@ -5244,10 +5356,14 @@
         "eu-turkiye-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "nl-customs-administration",
+      "trade_portal_ids": [
+        "nl-business-government-international"
+      ],
+      "trade_agency_ids": [
+        "nl-netherlands-enterprise-agency"
+      ],
+      "standards_body_id": "nl-royal-netherlands-standardization-institute",
       "landlocked": null,
       "aliases": [
         "Netherlands"
@@ -5257,6 +5373,10 @@
         "eu-customs-union",
         "eu-members",
         "eu-turkiye-trade",
+        "iso-members",
+        "nl-business-government",
+        "nl-customs",
+        "nl-rvo",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -6084,10 +6204,14 @@
         "gcc-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "sa-zakat-tax-and-customs-authority",
+      "trade_portal_ids": [
+        "sa-fasah"
+      ],
+      "trade_agency_ids": [
+        "sa-saudi-export-development-authority"
+      ],
+      "standards_body_id": "sa-saudi-standards-metrology-and-quality-organization",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
@@ -6095,6 +6219,10 @@
         "g20-members",
         "gcc-customs-union",
         "gcc-members",
+        "iso-members",
+        "sa-exports",
+        "sa-fasah",
+        "sa-zatca",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -6249,15 +6377,23 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "sg-singapore-customs",
+      "trade_portal_ids": [
+        "sg-gobusiness-import-export"
+      ],
+      "trade_agency_ids": [
+        "sg-enterprise-singapore"
+      ],
+      "standards_body_id": "sg-singapore-standards-council",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
         "asean-members",
         "debian-iso-codes",
+        "iso-members",
+        "sg-customs",
+        "sg-enterprise",
+        "sg-gobusiness",
         "un-m49",
         "unicode-cldr",
         "wto-members"
@@ -7602,10 +7738,14 @@
       ],
       "customs_relationship_ids": [],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "vn-viet-nam-customs",
+      "trade_portal_ids": [
+        "vn-viet-nam-trade-information-portal"
+      ],
+      "trade_agency_ids": [
+        "vn-vietrade"
+      ],
+      "standards_body_id": "vn-commission-for-standards-metrology-and-quality",
       "landlocked": null,
       "aliases": [
         "Vietnam"
@@ -7613,8 +7753,12 @@
       "source_ids": [
         "asean-members",
         "debian-iso-codes",
+        "iso-members",
         "un-m49",
         "unicode-cldr",
+        "vn-customs",
+        "vn-trade-portal",
+        "vn-vietrade",
         "wto-members"
       ]
     },
@@ -7786,10 +7930,14 @@
         "southern-african-customs-union"
       ],
       "wto_member": true,
-      "customs_authority_id": null,
-      "trade_portal_ids": [],
-      "trade_agency_ids": [],
-      "standards_body_id": null,
+      "customs_authority_id": "za-south-african-revenue-service",
+      "trade_portal_ids": [
+        "za-dtic-exports"
+      ],
+      "trade_agency_ids": [
+        "za-department-of-trade-industry-and-competition"
+      ],
+      "standards_body_id": "za-south-african-bureau-of-standards",
       "landlocked": null,
       "aliases": [],
       "source_ids": [
@@ -7797,10 +7945,13 @@
         "african-union-members",
         "debian-iso-codes",
         "g20-members",
+        "iso-members",
         "sacu-members",
         "un-m49",
         "unicode-cldr",
-        "wto-members"
+        "wto-members",
+        "za-dtic",
+        "za-sars"
       ]
     },
     {
