@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 3,
+  "records": [
+    {
+      "id": "gb-department-for-business-and-trade",
+      "country_code": "GB",
+      "name": "Department for Business and Trade",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.gov.uk/government/organisations/department-for-business-and-trade",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "uk-dbt"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "tr-turkiye-exporters-assembly",
+      "country_code": "TR",
+      "name": "Türkiye Exporters Assembly",
+      "agency_type": "trade-promotion",
+      "website": "https://www.tim.org.tr/en/default.html",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "tr-exporters-assembly"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "us-international-trade-administration",
+      "country_code": "US",
+      "name": "International Trade Administration",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.trade.gov/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "us-trade-gov"
+      ],
+      "last_verified": "2026-09-06"
+    }
+  ]
+}

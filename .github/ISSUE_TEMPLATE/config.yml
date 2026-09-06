@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: https://firmapanel.com/contact
+    about: Report potential vulnerabilities privately; do not open a public issue.
+  - name: FirmaPanel support
+    url: https://firmapanel.com/contact
+    about: Get help with FirmaPanel accounts, marketplace activity, or partnerships.

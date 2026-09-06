@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 3,
+  "records": [
+    {
+      "id": "gb-hm-revenue-and-customs",
+      "country_code": "GB",
+      "name": "HM Revenue & Customs",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "uk-hmrc"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "tr-general-directorate-of-customs",
+      "country_code": "TR",
+      "name": "General Directorate of Customs",
+      "authority_type": "customs-administration",
+      "website": "https://ggm.ticaret.gov.tr/",
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "source_ids": [
+        "tr-customs-directorate"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "us-customs-and-border-protection",
+      "country_code": "US",
+      "name": "U.S. Customs and Border Protection",
+      "authority_type": "border-and-customs-administration",
+      "website": "https://www.cbp.gov/trade",
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "us-cbp"
+      ],
+      "last_verified": "2026-09-06"
+    }
+  ]
+}

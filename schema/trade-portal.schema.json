@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/schema/trade-portal.schema.json",
+  "title": "FirmaPanel official trade portal dataset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "as_of_date",
+    "record_count",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "$ref": "common.schema.json#/$defs/semanticVersion"
+    },
+    "as_of_date": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "record_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/portal"
+      }
+    }
+  },
+  "$defs": {
+    "portal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "country_code",
+        "name",
+        "portal_type",
+        "website",
+        "topics",
+        "languages",
+        "source_ids",
+        "last_verified"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        "country_code": {
+          "$ref": "common.schema.json#/$defs/iso2"
+        },
+        "name": {
+          "$ref": "common.schema.json#/$defs/nonEmptyString"
+        },
+        "portal_type": {
+          "enum": [
+            "customs",
+            "export-guidance",
+            "import-guidance",
+            "single-window",
+            "standards",
+            "tariff-lookup",
+            "trade-information",
+            "trade-statistics"
+          ]
+        },
+        "website": {
+          "$ref": "common.schema.json#/$defs/httpsUrl"
+        },
+        "topics": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "customs",
+              "export",
+              "import",
+              "market-information",
+              "standards",
+              "tariffs",
+              "trade-regulations"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "languages": {
+          "$ref": "common.schema.json#/$defs/languageCodes"
+        },
+        "source_ids": {
+          "$ref": "common.schema.json#/$defs/sourceIds"
+        },
+        "last_verified": {
+          "$ref": "common.schema.json#/$defs/date"
+        }
+      }
+    }
+  }
+}

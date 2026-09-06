@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 5,
+  "records": [
+    {
+      "id": "eu-customs-union",
+      "name": "European Union Customs Union",
+      "relationship_type": "customs-union",
+      "participants": [
+        {
+          "type": "trade-group",
+          "id": "european-union"
+        }
+      ],
+      "status": "active",
+      "effective_from": "1968-07-01",
+      "effective_to": null,
+      "scope_note": "The EU member states apply common customs rules, subject to the territorial inclusions and exclusions defined in EU law.",
+      "source_ids": [
+        "eu-customs-union"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "eu-turkiye-customs-union",
+      "name": "EU-Türkiye Customs Union",
+      "relationship_type": "customs-union",
+      "participants": [
+        {
+          "type": "country",
+          "id": "TR"
+        },
+        {
+          "type": "trade-group",
+          "id": "european-union"
+        }
+      ],
+      "status": "active",
+      "effective_from": "1995-12-31",
+      "effective_to": null,
+      "scope_note": "The arrangement covers industrial goods and certain processed agricultural products; it is not a universal duty-free rule for every product.",
+      "source_ids": [
+        "eu-turkiye-trade"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "gcc-customs-union",
+      "name": "GCC Customs Union",
+      "relationship_type": "customs-union",
+      "participants": [
+        {
+          "type": "trade-group",
+          "id": "gulf-cooperation-council"
+        }
+      ],
+      "status": "active",
+      "effective_from": "2003-01-01",
+      "effective_to": null,
+      "scope_note": "Reference to the GCC customs union only; current procedures, exceptions, and product treatment require verification with member authorities.",
+      "source_ids": [
+        "gcc-customs-union"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "mercosur-customs-union",
+      "name": "MERCOSUR Customs Union",
+      "relationship_type": "customs-union",
+      "participants": [
+        {
+          "type": "trade-group",
+          "id": "mercosur"
+        }
+      ],
+      "status": "active",
+      "effective_from": "1995-01-01",
+      "effective_to": null,
+      "scope_note": "MERCOSUR is represented as a customs union with explicit member statuses; transitional measures, exceptions, and product rules are outside this dataset.",
+      "source_ids": [
+        "mercosur-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "southern-african-customs-union",
+      "name": "Southern African Customs Union",
+      "relationship_type": "customs-union",
+      "participants": [
+        {
+          "type": "country",
+          "id": "BW"
+        },
+        {
+          "type": "country",
+          "id": "LS"
+        },
+        {
+          "type": "country",
+          "id": "NA"
+        },
+        {
+          "type": "country",
+          "id": "SZ"
+        },
+        {
+          "type": "country",
+          "id": "ZA"
+        }
+      ],
+      "status": "active",
+      "effective_from": null,
+      "effective_to": null,
+      "scope_note": "The five members form a customs union; operational rules and current tariff treatment must be checked with SACU and national authorities.",
+      "source_ids": [
+        "sacu-members"
+      ],
+      "last_verified": "2026-09-06"
+    }
+  ]
+}

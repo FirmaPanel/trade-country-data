@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 3,
+  "records": [
+    {
+      "id": "gb-import-export-customs-guidance",
+      "country_code": "GB",
+      "name": "Import, export and customs for businesses",
+      "portal_type": "trade-information",
+      "website": "https://www.gov.uk/government/collections/import-export-and-customs-for-businesses-detailed-information",
+      "topics": [
+        "customs",
+        "export",
+        "import",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "uk-import-export-guidance"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "tr-easy-export-platform",
+      "country_code": "TR",
+      "name": "Easy Export Platform",
+      "portal_type": "export-guidance",
+      "website": "https://www.trade.gov.tr/exports/cooperation-activities-and-projects/easy-export-platform",
+      "topics": [
+        "export",
+        "market-information"
+      ],
+      "languages": [
+        "en",
+        "tr"
+      ],
+      "source_ids": [
+        "tr-easy-export"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "us-tradegov",
+      "country_code": "US",
+      "name": "Trade.gov",
+      "portal_type": "trade-information",
+      "website": "https://www.trade.gov/",
+      "topics": [
+        "export",
+        "market-information",
+        "trade-regulations"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_ids": [
+        "us-trade-gov"
+      ],
+      "last_verified": "2026-09-06"
+    }
+  ]
+}

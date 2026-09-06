@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 3,
+  "records": [
+    {
+      "id": "gb-british-standards-institution",
+      "country_code": "GB",
+      "name": "British Standards Institution",
+      "acronym": "BSI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.bsigroup.com/en-GB/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "tr-turkish-standards-institution",
+      "country_code": "TR",
+      "name": "Türk Standardları Enstitüsü",
+      "acronym": "TSE",
+      "organization_type": "national-standards-body",
+      "website": "https://www.tse.org.tr/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "us-american-national-standards-institute",
+      "country_code": "US",
+      "name": "American National Standards Institute",
+      "acronym": "ANSI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.ansi.org/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-06"
+    }
+  ]
+}

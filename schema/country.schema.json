@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/schema/country.schema.json",
+  "title": "FirmaPanel country dataset",
+  "description": "Trade-oriented country and area reference records.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "as_of_date",
+    "record_count",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "$ref": "common.schema.json#/$defs/semanticVersion"
+    },
+    "as_of_date": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "record_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/country"
+      }
+    }
+  },
+  "$defs": {
+    "nullableId": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "country": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "official_name",
+        "iso2",
+        "iso3",
+        "numeric_code",
+        "region_id",
+        "subregion_id",
+        "intermediate_region_id",
+        "currency_codes",
+        "trade_group_ids",
+        "customs_relationship_ids",
+        "wto_member",
+        "customs_authority_id",
+        "trade_portal_ids",
+        "trade_agency_ids",
+        "standards_body_id",
+        "landlocked",
+        "aliases",
+        "source_ids"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "common.schema.json#/$defs/nonEmptyString"
+        },
+        "official_name": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/nonEmptyString"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "iso2": {
+          "$ref": "common.schema.json#/$defs/iso2"
+        },
+        "iso3": {
+          "$ref": "common.schema.json#/$defs/iso3"
+        },
+        "numeric_code": {
+          "$ref": "common.schema.json#/$defs/numericCode"
+        },
+        "region_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "subregion_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "intermediate_region_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "currency_codes": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/currencyCode"
+          },
+          "uniqueItems": true
+        },
+        "trade_group_ids": {
+          "$ref": "common.schema.json#/$defs/idArray"
+        },
+        "customs_relationship_ids": {
+          "$ref": "common.schema.json#/$defs/idArray"
+        },
+        "wto_member": {
+          "type": "boolean"
+        },
+        "customs_authority_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "trade_portal_ids": {
+          "$ref": "common.schema.json#/$defs/idArray"
+        },
+        "trade_agency_ids": {
+          "$ref": "common.schema.json#/$defs/idArray"
+        },
+        "standards_body_id": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "landlocked": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "aliases": {
+          "$ref": "common.schema.json#/$defs/stringArray"
+        },
+        "source_ids": {
+          "$ref": "common.schema.json#/$defs/sourceIds"
+        }
+      }
+    }
+  }
+}

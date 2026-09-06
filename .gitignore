@@ -1,1 +1,24 @@
-tmp/
+tmp/*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Coverage and build output
+.coverage
+htmlcov/
+build/
+dist/
+
+# Editor settings
+.idea/
+.vscode/

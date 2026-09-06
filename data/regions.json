@@ -1,0 +1,326 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 29,
+  "records": [
+    {
+      "id": "africa",
+      "code": "002",
+      "name": "Africa",
+      "parent_id": null,
+      "level": "region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "americas",
+      "code": "019",
+      "name": "Americas",
+      "parent_id": null,
+      "level": "region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "asia",
+      "code": "142",
+      "name": "Asia",
+      "parent_id": null,
+      "level": "region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "australia-and-new-zealand",
+      "code": "053",
+      "name": "Australia and New Zealand",
+      "parent_id": "oceania",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "caribbean",
+      "code": "029",
+      "name": "Caribbean",
+      "parent_id": "latin-america-and-the-caribbean",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "central-america",
+      "code": "013",
+      "name": "Central America",
+      "parent_id": "latin-america-and-the-caribbean",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "central-asia",
+      "code": "143",
+      "name": "Central Asia",
+      "parent_id": "asia",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "eastern-africa",
+      "code": "014",
+      "name": "Eastern Africa",
+      "parent_id": "sub-saharan-africa",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "eastern-asia",
+      "code": "030",
+      "name": "Eastern Asia",
+      "parent_id": "asia",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "eastern-europe",
+      "code": "151",
+      "name": "Eastern Europe",
+      "parent_id": "europe",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "europe",
+      "code": "150",
+      "name": "Europe",
+      "parent_id": null,
+      "level": "region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "latin-america-and-the-caribbean",
+      "code": "419",
+      "name": "Latin America and the Caribbean",
+      "parent_id": "americas",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "melanesia",
+      "code": "054",
+      "name": "Melanesia",
+      "parent_id": "oceania",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "micronesia",
+      "code": "057",
+      "name": "Micronesia",
+      "parent_id": "oceania",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "middle-africa",
+      "code": "017",
+      "name": "Middle Africa",
+      "parent_id": "sub-saharan-africa",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "northern-africa",
+      "code": "015",
+      "name": "Northern Africa",
+      "parent_id": "africa",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "northern-america",
+      "code": "021",
+      "name": "Northern America",
+      "parent_id": "americas",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "northern-europe",
+      "code": "154",
+      "name": "Northern Europe",
+      "parent_id": "europe",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "oceania",
+      "code": "009",
+      "name": "Oceania",
+      "parent_id": null,
+      "level": "region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "polynesia",
+      "code": "061",
+      "name": "Polynesia",
+      "parent_id": "oceania",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "south-america",
+      "code": "005",
+      "name": "South America",
+      "parent_id": "latin-america-and-the-caribbean",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "south-eastern-asia",
+      "code": "035",
+      "name": "South-eastern Asia",
+      "parent_id": "asia",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "southern-africa",
+      "code": "018",
+      "name": "Southern Africa",
+      "parent_id": "sub-saharan-africa",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "southern-asia",
+      "code": "034",
+      "name": "Southern Asia",
+      "parent_id": "asia",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "southern-europe",
+      "code": "039",
+      "name": "Southern Europe",
+      "parent_id": "europe",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "sub-saharan-africa",
+      "code": "202",
+      "name": "Sub-Saharan Africa",
+      "parent_id": "africa",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "western-africa",
+      "code": "011",
+      "name": "Western Africa",
+      "parent_id": "sub-saharan-africa",
+      "level": "intermediate-region",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "western-asia",
+      "code": "145",
+      "name": "Western Asia",
+      "parent_id": "asia",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    },
+    {
+      "id": "western-europe",
+      "code": "155",
+      "name": "Western Europe",
+      "parent_id": "europe",
+      "level": "subregion",
+      "classification_system": "UN-M49",
+      "source_ids": [
+        "un-m49"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 27,
+  "records": [
+    {
+      "id": "afcfta-status",
+      "title": "AfCFTA ratification status",
+      "authority": "Trade Law Centre (tralac)",
+      "url": "https://www.tralac.org/afcfta-resources.html",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Country names mapped to ISO alpha-2 codes; deposited parties and signatories represented as separate statuses.",
+      "dataset_fields": [
+        "members",
+        "status"
+      ],
+      "update_frequency": "quarterly"
+    },
+    {
+      "id": "african-union-members",
+      "title": "African Union member states",
+      "authority": "African Union",
+      "url": "https://au.int/en/member_states/countryprofiles2",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Member state names mapped to ISO alpha-2 codes.",
+      "dataset_fields": [
+        "members"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "asean-members",
+      "title": "Timor-Leste integration as the 11th ASEAN member",
+      "authority": "Association of Southeast Asian Nations",
+      "url": "https://asean.org/timor-leste-advances-into-a-new-era-of-integration-with-asean/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Member names mapped to ISO alpha-2 codes.",
+      "dataset_fields": [
+        "members"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "debian-iso-codes",
+      "title": "ISO 3166-1 data from iso-codes 4.20.1",
+      "authority": "iso-codes project",
+      "url": "https://salsa.debian.org/iso-codes-team/iso-codes",
+      "license": "LGPL-2.1-or-later",
+      "license_url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+      "reuse_conditions": "The upstream iso-codes data package is LGPL-2.1-or-later. ISO states that its country codes may be used free of charge; do not imply ownership of ISO standards.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Selected English identifiers and names joined by ISO alpha-3 code; flag data was not imported.",
+      "dataset_fields": [
+        "aliases",
+        "iso2",
+        "iso3",
+        "numeric_code",
+        "official_name"
+      ],
+      "update_frequency": "when-notified"
+    },
+    {
+      "id": "efta-members",
+      "title": "The European Free Trade Association",
+      "authority": "European Free Trade Association",
+      "url": "https://www.efta.int/about-efta/european-free-trade-association",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Member names mapped to ISO alpha-2 codes.",
+      "dataset_fields": [
+        "members",
+        "relationship_type"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "eu-customs-union",
+      "title": "EU Customs strategy",
+      "authority": "European Commission",
+      "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-strategy_en",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "The EU-level relationship is linked through the European Union trade-group ID.",
+      "dataset_fields": [
+        "participants",
+        "relationship_type",
+        "scope_note"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "eu-members",
+      "title": "EU countries",
+      "authority": "European Union",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Member names mapped to ISO alpha-2 codes.",
+      "dataset_fields": [
+        "members"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "eu-turkiye-trade",
+      "title": "EU trade relations with Türkiye",
+      "authority": "European Commission",
+      "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/turkiye_en",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Relationship participants normalized to one country ID and one trade-group ID; the scope was summarized without reproducing legal text.",
+      "dataset_fields": [
+        "effective_from",
+        "participants",
+        "relationship_type",
+        "scope_note"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "g20-members",
+      "title": "About the G20",
+      "authority": "Group of Twenty",
+      "url": "https://g20.org/about-g20/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Country and regional-body members represented with typed references.",
+      "dataset_fields": [
+        "members"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "g7-members",
+      "title": "France's 2026 G7 Presidency",
+      "authority": "French Ministry for Europe and Foreign Affairs",
+      "url": "https://www.diplomatie.gouv.fr/en/priorites-et-actions/grands-dossiers/la-presidence-francaise-du-g7-2026",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Countries mapped to ISO alpha-2 codes and the European Union represented as a trade-group reference.",
+      "dataset_fields": [
+        "members"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "gcc-customs-union",
+      "title": "The Customs Union of the GCC Member States",
+      "authority": "Cooperation Council for the Arab States of the Gulf",
+      "url": "https://www.gcc-sg.org/en/MediaCenter/DigitalLibrary/Documents/1274258579.pdf",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "The internal customs relationship is linked through the GCC trade-group ID.",
+      "dataset_fields": [
+        "effective_from",
+        "participants",
+        "relationship_type",
+        "scope_note"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "gcc-members",
+      "title": "GCC founding and member states",
+      "authority": "Cooperation Council for the Arab States of the Gulf",
+      "url": "https://www.gcc-sg.org/en/AboutUs/Pages/FoundingDay.aspx",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Member names mapped to ISO alpha-2 codes.",
+      "dataset_fields": [
+        "members"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "iso-members",
+      "title": "ISO members by country",
+      "authority": "International Organization for Standardization",
+      "url": "https://www.iso.org/about/members",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Selected ISO member bodies mapped to ISO alpha-2 country codes; organization websites were verified separately.",
+      "dataset_fields": [
+        "acronym",
+        "country_code",
+        "name",
+        "organization_type",
+        "website"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "mercosur-members",
+      "title": "MERCOSUR countries",
+      "authority": "Southern Common Market",
+      "url": "https://www.mercosur.int/acerca-del-mercosur/paises",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "States parties mapped to ISO alpha-2 codes; Venezuela retained with its published suspended status.",
+      "dataset_fields": [
+        "members",
+        "participants",
+        "status"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "sacu-members",
+      "title": "SACU member states",
+      "authority": "Southern African Customs Union",
+      "url": "https://www.sacu.int/about-sacu",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Member names mapped to ISO alpha-2 country references.",
+      "dataset_fields": [
+        "participants",
+        "relationship_type",
+        "scope_note"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "tr-customs-directorate",
+      "title": "General Directorate of Customs",
+      "authority": "Republic of Türkiye Ministry of Trade",
+      "url": "https://ggm.ticaret.gov.tr/kurumsal",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "English display name used with the official government website.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "tr-easy-export",
+      "title": "Easy Export Platform",
+      "authority": "Republic of Türkiye Ministry of Trade",
+      "url": "https://www.trade.gov.tr/exports/cooperation-activities-and-projects/easy-export-platform",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Portal purpose summarized into controlled topics.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "tr-exporters-assembly",
+      "title": "About Türkiye Exporters Assembly",
+      "authority": "Türkiye Exporters Assembly",
+      "url": "https://www.tim.org.tr/EN/about-tim-about-us",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Organization services summarized into controlled service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "uk-dbt",
+      "title": "Department for Business and Trade: about us",
+      "authority": "Government of the United Kingdom",
+      "url": "https://www.gov.uk/government/organisations/department-for-business-and-trade/about",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "reuse_conditions": "Crown copyright information is reused under the Open Government Licence where applicable; organization names and links are factual references.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Department responsibilities summarized into controlled service values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "services",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "uk-hmrc",
+      "title": "HM Revenue & Customs: about us",
+      "authority": "Government of the United Kingdom",
+      "url": "https://www.gov.uk/government/organisations/hm-revenue-customs/about",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "reuse_conditions": "Crown copyright information is reused under the Open Government Licence where applicable; organization names and links are factual references.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Authority responsibility mapped to the tax-and-customs controlled type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "uk-import-export-guidance",
+      "title": "Import, export and customs for businesses",
+      "authority": "Government of the United Kingdom",
+      "url": "https://www.gov.uk/government/collections/import-export-and-customs-for-businesses-detailed-information",
+      "license": "Open Government Licence v3.0",
+      "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "reuse_conditions": "Crown copyright information is reused under the Open Government Licence where applicable; organization names and links are factual references.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Guidance collection topics mapped to controlled portal topics.",
+      "dataset_fields": [
+        "country_code",
+        "name",
+        "portal_type",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "quarterly"
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49)",
+      "authority": "United Nations Statistics Division",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "English table rows normalized to stable region IDs and ISO code joins; the LLDC marker only supplies confirmed true values for landlocked.",
+      "dataset_fields": [
+        "intermediate_region_id",
+        "iso2",
+        "iso3",
+        "landlocked",
+        "name",
+        "numeric_code",
+        "region_id",
+        "subregion_id"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "unicode-cldr",
+      "title": "CLDR 48 supplemental currency data",
+      "authority": "Unicode Consortium",
+      "url": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/supplemental/supplementalData.xml",
+      "license": "Unicode-3.0",
+      "license_url": "https://www.unicode.org/license.txt",
+      "reuse_conditions": "CLDR data is used under the Unicode License v3; only normalized current currency-code mappings are included.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Active legal-tender currency entries selected at the dataset as-of date and joined by ISO alpha-2 code.",
+      "dataset_fields": [
+        "currency_codes"
+      ],
+      "update_frequency": "when-notified"
+    },
+    {
+      "id": "us-cbp",
+      "title": "Trade",
+      "authority": "U.S. Customs and Border Protection",
+      "url": "https://www.cbp.gov/trade",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Agency responsibility mapped to the border-and-customs controlled type.",
+      "dataset_fields": [
+        "authority_type",
+        "country_code",
+        "name",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "us-trade-gov",
+      "title": "Trade.gov",
+      "authority": "International Trade Administration",
+      "url": "https://www.trade.gov/",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Official services summarized into controlled portal and agency values.",
+      "dataset_fields": [
+        "agency_type",
+        "country_code",
+        "name",
+        "portal_type",
+        "services",
+        "topics",
+        "website"
+      ],
+      "update_frequency": "annual"
+    },
+    {
+      "id": "usmca",
+      "title": "United States-Mexico-Canada Agreement",
+      "authority": "Office of the United States Trade Representative",
+      "url": "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Agreement parties mapped to ISO alpha-2 codes.",
+      "dataset_fields": [
+        "members",
+        "relationship_type"
+      ],
+      "update_frequency": "before-release"
+    },
+    {
+      "id": "wto-members",
+      "title": "WTO members and membership dates",
+      "authority": "World Trade Organization",
+      "url": "https://www.wto.org/library/groupings/country_data.js",
+      "license": null,
+      "license_url": null,
+      "reuse_conditions": "Factual metadata was transcribed and normalized; consult the source terms before reusing source content.",
+      "retrieved_date": "2026-09-06",
+      "last_verified": "2026-09-06",
+      "normalization": "Current member records mapped from WTO codes to ISO alpha-2 codes; the WTO CHT code maps to ISO TWN/TW, legacy ROM maps to ROU/RO, and the EU is a typed trade-group member.",
+      "dataset_fields": [
+        "effective_from",
+        "members",
+        "wto_member"
+      ],
+      "update_frequency": "before-release"
+    }
+  ]
+}

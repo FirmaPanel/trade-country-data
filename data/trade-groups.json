@@ -1,0 +1,2126 @@
+{
+  "schema_version": "0.1.0",
+  "as_of_date": "2026-09-06",
+  "record_count": 11,
+  "records": [
+    {
+      "id": "african-continental-free-trade-area",
+      "name": "African Continental Free Trade Area",
+      "short_name": "AfCFTA",
+      "relationship_type": "free-trade-area",
+      "members": [
+        {
+          "type": "country",
+          "id": "AO",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "BF",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "BI",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "BJ",
+          "status": "signatory"
+        },
+        {
+          "type": "country",
+          "id": "BW",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "CD",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "CF",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "CG",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "CI",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "CM",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "CV",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "DJ",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "DZ",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "EG",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "EH",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "ET",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "GA",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "GH",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "GM",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "GN",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "GQ",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "GW",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "KE",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "KM",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "LR",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "LS",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "LY",
+          "status": "signatory"
+        },
+        {
+          "type": "country",
+          "id": "MA",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "MG",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "ML",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "MR",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "MU",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "MW",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "MZ",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "NA",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "NE",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "NG",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "RW",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "SC",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "SD",
+          "status": "signatory"
+        },
+        {
+          "type": "country",
+          "id": "SL",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "SN",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "SO",
+          "status": "signatory"
+        },
+        {
+          "type": "country",
+          "id": "SS",
+          "status": "signatory"
+        },
+        {
+          "type": "country",
+          "id": "ST",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "SZ",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "TD",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "TG",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "TN",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "TZ",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "UG",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "ZA",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "ZM",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "ZW",
+          "status": "party"
+        }
+      ],
+      "official_website": "https://au-afcfta.org/",
+      "source_ids": [
+        "afcfta-status"
+      ],
+      "last_verified": "2026-09-06",
+      "notes": "Status distinguishes deposited parties from signatories; Eritrea is not listed because it had not signed as of the snapshot date."
+    },
+    {
+      "id": "african-union",
+      "name": "African Union",
+      "short_name": "AU",
+      "relationship_type": "intergovernmental-organization",
+      "members": [
+        {
+          "type": "country",
+          "id": "AO",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BF",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BI",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BJ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BW",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CD",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CF",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CI",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CM",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CV",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "DJ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "DZ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "EG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "EH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ER",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ET",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GM",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GN",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GQ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GW",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "KE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "KM",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LS",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LY",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ML",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MU",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MW",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MZ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "NA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "NE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "NG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "RW",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SC",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SD",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SL",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SN",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SO",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SS",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ST",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SZ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TD",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TN",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TZ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "UG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ZA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ZM",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ZW",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://au.int/",
+      "source_ids": [
+        "african-union-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "association-of-southeast-asian-nations",
+      "name": "Association of Southeast Asian Nations",
+      "short_name": "ASEAN",
+      "relationship_type": "intergovernmental-organization",
+      "members": [
+        {
+          "type": "country",
+          "id": "BN",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ID",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "KH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MM",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MY",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "PH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TL",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "VN",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://asean.org/",
+      "source_ids": [
+        "asean-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "european-free-trade-association",
+      "name": "European Free Trade Association",
+      "short_name": "EFTA",
+      "relationship_type": "free-trade-association",
+      "members": [
+        {
+          "type": "country",
+          "id": "CH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "IS",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LI",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "NO",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://www.efta.int/",
+      "source_ids": [
+        "efta-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "european-union",
+      "name": "European Union",
+      "short_name": "EU",
+      "relationship_type": "economic-and-political-union",
+      "members": [
+        {
+          "type": "country",
+          "id": "AT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BG",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CY",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CZ",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "DE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "DK",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "EE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ES",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "FI",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "FR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "HR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "HU",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "IE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "IT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LU",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "LV",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "NL",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "PL",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "PT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "RO",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SI",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SK",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://european-union.europa.eu/",
+      "source_ids": [
+        "eu-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "group-of-seven",
+      "name": "Group of Seven",
+      "short_name": "G7",
+      "relationship_type": "intergovernmental-group",
+      "members": [
+        {
+          "type": "country",
+          "id": "CA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "DE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "FR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GB",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "IT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "JP",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "US",
+          "status": "member"
+        },
+        {
+          "type": "trade-group",
+          "id": "european-union",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://www.elysee.fr/en/G7evian",
+      "source_ids": [
+        "g7-members"
+      ],
+      "last_verified": "2026-09-06",
+      "notes": "The European Union participates in the G7 but is not counted among the seven countries."
+    },
+    {
+      "id": "group-of-twenty",
+      "name": "Group of Twenty",
+      "short_name": "G20",
+      "relationship_type": "intergovernmental-group",
+      "members": [
+        {
+          "type": "country",
+          "id": "AR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "AU",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "CN",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "DE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "FR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "GB",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ID",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "IN",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "IT",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "JP",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "KR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "MX",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "RU",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "TR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "US",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "ZA",
+          "status": "member"
+        },
+        {
+          "type": "trade-group",
+          "id": "african-union",
+          "status": "member"
+        },
+        {
+          "type": "trade-group",
+          "id": "european-union",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://g20.org/",
+      "source_ids": [
+        "g20-members"
+      ],
+      "last_verified": "2026-09-06",
+      "notes": "The G20 comprises 19 countries and the African Union and European Union."
+    },
+    {
+      "id": "gulf-cooperation-council",
+      "name": "Cooperation Council for the Arab States of the Gulf",
+      "short_name": "GCC",
+      "relationship_type": "intergovernmental-organization",
+      "members": [
+        {
+          "type": "country",
+          "id": "AE",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BH",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "KW",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "OM",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "QA",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "SA",
+          "status": "member"
+        }
+      ],
+      "official_website": "https://www.gcc-sg.org/",
+      "source_ids": [
+        "gcc-members"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "mercosur",
+      "name": "Southern Common Market",
+      "short_name": "MERCOSUR",
+      "relationship_type": "customs-union",
+      "members": [
+        {
+          "type": "country",
+          "id": "AR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BO",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "BR",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "PY",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "UY",
+          "status": "member"
+        },
+        {
+          "type": "country",
+          "id": "VE",
+          "status": "suspended"
+        }
+      ],
+      "official_website": "https://www.mercosur.int/",
+      "source_ids": [
+        "mercosur-members"
+      ],
+      "last_verified": "2026-09-06",
+      "notes": "Venezuela is retained with suspended status; associated states are outside this membership list."
+    },
+    {
+      "id": "united-states-mexico-canada-agreement",
+      "name": "United States-Mexico-Canada Agreement",
+      "short_name": "USMCA",
+      "relationship_type": "trade-agreement",
+      "members": [
+        {
+          "type": "country",
+          "id": "CA",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "MX",
+          "status": "party"
+        },
+        {
+          "type": "country",
+          "id": "US",
+          "status": "party"
+        }
+      ],
+      "official_website": "https://ustr.gov/trade-agreements/free-trade-agreements/united-states-mexico-canada-agreement",
+      "source_ids": [
+        "usmca"
+      ],
+      "last_verified": "2026-09-06"
+    },
+    {
+      "id": "world-trade-organization",
+      "name": "World Trade Organization",
+      "short_name": "WTO",
+      "relationship_type": "international-organization",
+      "members": [
+        {
+          "type": "country",
+          "id": "AE",
+          "status": "member",
+          "effective_from": "1996-04-10"
+        },
+        {
+          "type": "country",
+          "id": "AF",
+          "status": "member",
+          "effective_from": "2016-07-29"
+        },
+        {
+          "type": "country",
+          "id": "AG",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "AL",
+          "status": "member",
+          "effective_from": "2000-09-08"
+        },
+        {
+          "type": "country",
+          "id": "AM",
+          "status": "member",
+          "effective_from": "2003-02-05"
+        },
+        {
+          "type": "country",
+          "id": "AO",
+          "status": "member",
+          "effective_from": "1996-11-23"
+        },
+        {
+          "type": "country",
+          "id": "AR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "AT",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "AU",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BB",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BD",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BF",
+          "status": "member",
+          "effective_from": "1995-06-03"
+        },
+        {
+          "type": "country",
+          "id": "BG",
+          "status": "member",
+          "effective_from": "1996-12-01"
+        },
+        {
+          "type": "country",
+          "id": "BH",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BI",
+          "status": "member",
+          "effective_from": "1995-07-23"
+        },
+        {
+          "type": "country",
+          "id": "BJ",
+          "status": "member",
+          "effective_from": "1996-02-22"
+        },
+        {
+          "type": "country",
+          "id": "BN",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BO",
+          "status": "member",
+          "effective_from": "1995-09-12"
+        },
+        {
+          "type": "country",
+          "id": "BR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "BW",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "BZ",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "CA",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "CD",
+          "status": "member",
+          "effective_from": "1997-01-01"
+        },
+        {
+          "type": "country",
+          "id": "CF",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "CG",
+          "status": "member",
+          "effective_from": "1997-03-27"
+        },
+        {
+          "type": "country",
+          "id": "CH",
+          "status": "member",
+          "effective_from": "1995-07-01"
+        },
+        {
+          "type": "country",
+          "id": "CI",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "CL",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "CM",
+          "status": "member",
+          "effective_from": "1995-12-13"
+        },
+        {
+          "type": "country",
+          "id": "CN",
+          "status": "member",
+          "effective_from": "2001-12-11"
+        },
+        {
+          "type": "country",
+          "id": "CO",
+          "status": "member",
+          "effective_from": "1995-04-30"
+        },
+        {
+          "type": "country",
+          "id": "CR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "CU",
+          "status": "member",
+          "effective_from": "1995-04-20"
+        },
+        {
+          "type": "country",
+          "id": "CV",
+          "status": "member",
+          "effective_from": "2008-07-23"
+        },
+        {
+          "type": "country",
+          "id": "CY",
+          "status": "member",
+          "effective_from": "1995-07-30"
+        },
+        {
+          "type": "country",
+          "id": "CZ",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "DE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "DJ",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "DK",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "DM",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "DO",
+          "status": "member",
+          "effective_from": "1995-03-09"
+        },
+        {
+          "type": "country",
+          "id": "EC",
+          "status": "member",
+          "effective_from": "1996-01-21"
+        },
+        {
+          "type": "country",
+          "id": "EE",
+          "status": "member",
+          "effective_from": "1999-11-13"
+        },
+        {
+          "type": "country",
+          "id": "EG",
+          "status": "member",
+          "effective_from": "1995-06-30"
+        },
+        {
+          "type": "country",
+          "id": "ES",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "FI",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "FJ",
+          "status": "member",
+          "effective_from": "1996-01-14"
+        },
+        {
+          "type": "country",
+          "id": "FR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "GA",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "GB",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "GD",
+          "status": "member",
+          "effective_from": "1996-02-22"
+        },
+        {
+          "type": "country",
+          "id": "GE",
+          "status": "member",
+          "effective_from": "2000-06-14"
+        },
+        {
+          "type": "country",
+          "id": "GH",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "GM",
+          "status": "member",
+          "effective_from": "1996-10-23"
+        },
+        {
+          "type": "country",
+          "id": "GN",
+          "status": "member",
+          "effective_from": "1995-10-25"
+        },
+        {
+          "type": "country",
+          "id": "GR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "GT",
+          "status": "member",
+          "effective_from": "1995-07-21"
+        },
+        {
+          "type": "country",
+          "id": "GW",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "GY",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "HK",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "HN",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "HR",
+          "status": "member",
+          "effective_from": "2000-11-30"
+        },
+        {
+          "type": "country",
+          "id": "HT",
+          "status": "member",
+          "effective_from": "1996-01-30"
+        },
+        {
+          "type": "country",
+          "id": "HU",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "ID",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "IE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "IL",
+          "status": "member",
+          "effective_from": "1995-04-21"
+        },
+        {
+          "type": "country",
+          "id": "IN",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "IS",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "IT",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "JM",
+          "status": "member",
+          "effective_from": "1995-03-09"
+        },
+        {
+          "type": "country",
+          "id": "JO",
+          "status": "member",
+          "effective_from": "2000-04-11"
+        },
+        {
+          "type": "country",
+          "id": "JP",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "KE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "KG",
+          "status": "member",
+          "effective_from": "1998-12-20"
+        },
+        {
+          "type": "country",
+          "id": "KH",
+          "status": "member",
+          "effective_from": "2004-10-13"
+        },
+        {
+          "type": "country",
+          "id": "KM",
+          "status": "member",
+          "effective_from": "2024-08-21"
+        },
+        {
+          "type": "country",
+          "id": "KN",
+          "status": "member",
+          "effective_from": "1996-02-21"
+        },
+        {
+          "type": "country",
+          "id": "KR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "KW",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "KZ",
+          "status": "member",
+          "effective_from": "2015-11-30"
+        },
+        {
+          "type": "country",
+          "id": "LA",
+          "status": "member",
+          "effective_from": "2013-02-02"
+        },
+        {
+          "type": "country",
+          "id": "LC",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "LI",
+          "status": "member",
+          "effective_from": "1995-09-01"
+        },
+        {
+          "type": "country",
+          "id": "LK",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "LR",
+          "status": "member",
+          "effective_from": "2016-07-14"
+        },
+        {
+          "type": "country",
+          "id": "LS",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "LT",
+          "status": "member",
+          "effective_from": "2001-05-31"
+        },
+        {
+          "type": "country",
+          "id": "LU",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "LV",
+          "status": "member",
+          "effective_from": "1999-02-10"
+        },
+        {
+          "type": "country",
+          "id": "MA",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MD",
+          "status": "member",
+          "effective_from": "2001-07-26"
+        },
+        {
+          "type": "country",
+          "id": "ME",
+          "status": "member",
+          "effective_from": "2012-04-29"
+        },
+        {
+          "type": "country",
+          "id": "MG",
+          "status": "member",
+          "effective_from": "1995-11-17"
+        },
+        {
+          "type": "country",
+          "id": "MK",
+          "status": "member",
+          "effective_from": "2003-04-04"
+        },
+        {
+          "type": "country",
+          "id": "ML",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "MM",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MN",
+          "status": "member",
+          "effective_from": "1997-01-29"
+        },
+        {
+          "type": "country",
+          "id": "MO",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MR",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "MT",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MU",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MV",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "MW",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "MX",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MY",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "MZ",
+          "status": "member",
+          "effective_from": "1995-08-26"
+        },
+        {
+          "type": "country",
+          "id": "NA",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "NE",
+          "status": "member",
+          "effective_from": "1996-12-13"
+        },
+        {
+          "type": "country",
+          "id": "NG",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "NI",
+          "status": "member",
+          "effective_from": "1995-09-03"
+        },
+        {
+          "type": "country",
+          "id": "NL",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "NO",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "NP",
+          "status": "member",
+          "effective_from": "2004-04-23"
+        },
+        {
+          "type": "country",
+          "id": "NZ",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "OM",
+          "status": "member",
+          "effective_from": "2000-11-09"
+        },
+        {
+          "type": "country",
+          "id": "PA",
+          "status": "member",
+          "effective_from": "1997-09-06"
+        },
+        {
+          "type": "country",
+          "id": "PE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "PG",
+          "status": "member",
+          "effective_from": "1996-06-09"
+        },
+        {
+          "type": "country",
+          "id": "PH",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "PK",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "PL",
+          "status": "member",
+          "effective_from": "1995-07-01"
+        },
+        {
+          "type": "country",
+          "id": "PT",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "PY",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "QA",
+          "status": "member",
+          "effective_from": "1996-01-13"
+        },
+        {
+          "type": "country",
+          "id": "RO",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "RU",
+          "status": "member",
+          "effective_from": "2012-08-22"
+        },
+        {
+          "type": "country",
+          "id": "RW",
+          "status": "member",
+          "effective_from": "1996-05-22"
+        },
+        {
+          "type": "country",
+          "id": "SA",
+          "status": "member",
+          "effective_from": "2005-12-11"
+        },
+        {
+          "type": "country",
+          "id": "SB",
+          "status": "member",
+          "effective_from": "1996-07-26"
+        },
+        {
+          "type": "country",
+          "id": "SC",
+          "status": "member",
+          "effective_from": "2015-04-26"
+        },
+        {
+          "type": "country",
+          "id": "SE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "SG",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "SI",
+          "status": "member",
+          "effective_from": "1995-07-30"
+        },
+        {
+          "type": "country",
+          "id": "SK",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "SL",
+          "status": "member",
+          "effective_from": "1995-07-23"
+        },
+        {
+          "type": "country",
+          "id": "SN",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "SR",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "SV",
+          "status": "member",
+          "effective_from": "1995-05-07"
+        },
+        {
+          "type": "country",
+          "id": "SZ",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "TD",
+          "status": "member",
+          "effective_from": "1996-10-19"
+        },
+        {
+          "type": "country",
+          "id": "TG",
+          "status": "member",
+          "effective_from": "1995-05-31"
+        },
+        {
+          "type": "country",
+          "id": "TH",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "TJ",
+          "status": "member",
+          "effective_from": "2013-03-02"
+        },
+        {
+          "type": "country",
+          "id": "TL",
+          "status": "member",
+          "effective_from": "2024-08-30"
+        },
+        {
+          "type": "country",
+          "id": "TN",
+          "status": "member",
+          "effective_from": "1995-03-29"
+        },
+        {
+          "type": "country",
+          "id": "TO",
+          "status": "member",
+          "effective_from": "2007-07-27"
+        },
+        {
+          "type": "country",
+          "id": "TR",
+          "status": "member",
+          "effective_from": "1995-03-26"
+        },
+        {
+          "type": "country",
+          "id": "TT",
+          "status": "member",
+          "effective_from": "1995-03-01"
+        },
+        {
+          "type": "country",
+          "id": "TW",
+          "status": "member",
+          "effective_from": "2002-01-01"
+        },
+        {
+          "type": "country",
+          "id": "TZ",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "UA",
+          "status": "member",
+          "effective_from": "2008-05-16"
+        },
+        {
+          "type": "country",
+          "id": "UG",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "US",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "UY",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "VC",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "VE",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "VN",
+          "status": "member",
+          "effective_from": "2007-01-11"
+        },
+        {
+          "type": "country",
+          "id": "VU",
+          "status": "member",
+          "effective_from": "2012-08-24"
+        },
+        {
+          "type": "country",
+          "id": "WS",
+          "status": "member",
+          "effective_from": "2012-05-10"
+        },
+        {
+          "type": "country",
+          "id": "YE",
+          "status": "member",
+          "effective_from": "2014-06-26"
+        },
+        {
+          "type": "country",
+          "id": "ZA",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "ZM",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        },
+        {
+          "type": "country",
+          "id": "ZW",
+          "status": "member",
+          "effective_from": "1995-03-05"
+        },
+        {
+          "type": "trade-group",
+          "id": "european-union",
+          "status": "member",
+          "effective_from": "1995-01-01"
+        }
+      ],
+      "official_website": "https://www.wto.org/",
+      "source_ids": [
+        "wto-members"
+      ],
+      "last_verified": "2026-09-06",
+      "notes": "The WTO member count includes the European Union and separately represented customs territories."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+name: Official resource request
+description: Propose a customs authority, trade portal, agency, or standards body.
+title: "[Resource]: "
+body:
+  - type: input
+    id: country
+    attributes:
+      label: Country or area
+      description: Give the name and ISO alpha-2 code.
+      placeholder: Türkiye (TR)
+    validations:
+      required: true
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Resource type
+      options:
+        - Customs authority
+        - Official trade portal
+        - Trade or export-promotion agency
+        - National standards body
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Official name
+      placeholder: General Directorate of Customs
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official HTTPS URL
+      placeholder: https://customs.example/
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and retrieval date
+      description: Explain how the page establishes the resource's official role.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I verified the page directly and recorded today's retrieval date.
+          required: true
+        - label: I searched current data and issues for this resource.
+          required: true
+        - label: This is not a commercial directory or unofficial guide.
+          required: true

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, please cite it using the metadata below and retain
+  the attribution required by the license.
+title: FirmaPanel Trade Country Data
+type: dataset
+authors:
+  - name: FirmaPanel
+    website: https://firmapanel.com
+repository-code: https://github.com/FirmaPanel/trade-country-data
+url: https://firmapanel.com
+license: CC-BY-4.0
+abstract: >-
+  Trade-focused country reference data for procurement, logistics, customs,
+  sourcing, and import-export software, with typed relationships and
+  machine-readable provenance.
+keywords:
+  - international trade
+  - procurement
+  - customs
+  - logistics
+  - sourcing
+  - import export
+  - ISO 3166
+  - UN M49
+  - trade groups
+  - reference data
+preferred-citation:
+  type: data
+  authors:
+    - name: FirmaPanel
+  title: FirmaPanel Trade Country Data
+  year: 2026
+  publisher:
+    name: FirmaPanel
+  url: https://github.com/FirmaPanel/trade-country-data

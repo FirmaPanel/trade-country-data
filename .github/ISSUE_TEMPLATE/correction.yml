@@ -1,0 +1,58 @@
+name: Correction or data-quality report
+description: Report inaccurate, outdated, duplicated, or inconsistent data.
+title: "[Correction]: "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record and stable ID
+      description: Identify the country, group, relationship, resource, or source.
+      placeholder: TR or eu-turkiye-customs-union
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Problem type
+      options:
+        - Country identity, region, currency, or alias
+        - Trade-group membership or status
+        - Customs relationship or scope
+        - Official authority, portal, agency, or standards body
+        - Source, verification date, or license
+        - CSV, schema, or validation inconsistency
+        - Other data-quality issue
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Explain the current problem and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Give the corrected value, status, date, or URL.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Authoritative sources
+      description: Link first-party evidence and include the retrieval date.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched existing issues for the same report.
+          required: true
+        - label: The source directly supports the proposed correction.
+          required: true
+        - label: I distinguished publication, effective, and verification dates.
+          required: true
