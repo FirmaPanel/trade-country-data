@@ -6,6 +6,7 @@ This guide describes the review and release workflow for maintainers.
 
 - Python 3.9 or later for build and integrity checks;
 - Node.js 18 or later for npm package checks;
+- PHP 8.1 or later and Composer 2 for Composer package checks;
 - packages from `requirements-dev.txt` for JSON Schema validation; and
 - direct access to every source affected by a proposed change.
 
@@ -84,6 +85,8 @@ scope, and link the shared resource ID from every covered country record.
 - [ ] The PyPI package's `DATASET_VERSION` matches `schema_version`.
 - [ ] The PyPI package `version` is ready for a new, unpublished PyPI release.
 - [ ] `make pypi-check` and `make pypi-build` pass.
+- [ ] The Composer `DATASET_VERSION` matches `schema_version`.
+- [ ] `make composer-check` passes.
 - [ ] Documentation and examples match the schema.
 - [ ] `CHANGELOG.md` records coverage, limitations, and notable changes.
 - [ ] Source licenses and attribution obligations have been reviewed.
@@ -114,3 +117,9 @@ with owner `FirmaPanel`, repository `trade-country-data`, workflow
 `publish-pypi.yml`, and environment `pypi`. Then run the workflow manually from
 the repository's default branch. Later matching GitHub releases publish both
 package formats automatically.
+
+The Composer package is discovered from the root `composer.json`; Packagist
+derives versions from repository tags. Submit
+`https://github.com/FirmaPanel/trade-country-data` once under the `firmapanel`
+Packagist account, then enable the GitHub service hook so pushes and tags are
+indexed automatically.

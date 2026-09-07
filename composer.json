@@ -1,0 +1,54 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "name": "firmapanel/trade-country-data",
+  "description": "Trade-focused country reference data for procurement, logistics, customs, sourcing, and import-export software.",
+  "type": "library",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "countries",
+    "customs",
+    "international-trade",
+    "iso-3166",
+    "logistics",
+    "procurement",
+    "reference-data",
+    "trade"
+  ],
+  "homepage": "https://firmapanel.com/tools",
+  "authors": [
+    {
+      "name": "FirmaPanel",
+      "homepage": "https://packagist.org/users/firmapanel",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/FirmaPanel/trade-country-data/issues",
+    "source": "https://github.com/FirmaPanel/trade-country-data"
+  },
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "FirmaPanel\\TradeCountryData\\": "packages/composer/src/"
+    }
+  },
+  "scripts": {
+    "test": "@php packages/composer/tests/run.php",
+    "check": [
+      "@composer validate --strict --no-check-lock",
+      "@composer dump-autoload --optimize --strict-psr",
+      "@test"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "firmapanel": {
+      "dataset-version": "0.3.0"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: build check coverage npm-check npm-pack pypi-build pypi-check report-coverage test validate validate-schemas
+.PHONY: build check composer-check coverage npm-check npm-pack pypi-build pypi-check report-coverage test validate validate-schemas
 
 build:
 	$(PYTHON) scripts/build_csv.py
@@ -21,6 +21,11 @@ coverage:
 	$(PYTHON) -m coverage erase
 	$(PYTHON) -m coverage run -m unittest discover -s tests -v
 	$(PYTHON) -m coverage report
+
+composer-check:
+	composer validate --strict --no-check-lock
+	composer dump-autoload --optimize --strict-psr
+	composer test
 
 npm-check:
 	cd packages/npm && npm run check

@@ -18,6 +18,7 @@ venv/
 htmlcov/
 build/
 dist/
+vendor/
 packages/npm/generated/
 packages/npm/ATTRIBUTION.md
 packages/npm/LICENSE

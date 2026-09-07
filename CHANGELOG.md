@@ -18,6 +18,9 @@ principles for a versioned dataset.
   dependency-free dataset, schema, and CSV access plus typed package metadata.
 - Automated wheel and source-distribution validation and trusted PyPI
   publishing with OIDC.
+- A `firmapanel/trade-country-data` Composer package with PSR-4 autoloading and
+  dependency-free access to the canonical datasets, schemas, and country CSV.
+- Composer metadata and PHP 8.1/8.5 package checks for continuous integration.
 
 ## [0.3.0] - 2026-09-07
 

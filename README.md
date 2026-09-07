@@ -16,6 +16,8 @@ sourcing, and import-export software.
 
 **PyPI:** `python -m pip install firmapanel-trade-country-data`
 
+**Composer:** `composer require firmapanel/trade-country-data`
+
 **FirmaPanel tools:** [Free procurement and import-export tools](https://firmapanel.com/tools)
 
 **DOI:** [10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118)
@@ -149,6 +151,27 @@ print(turkiye["trade_group_ids"])
 
 See the [PyPI package documentation](packages/pypi/README.md) for dataset,
 schema, and CSV access.
+
+PHP applications can install the Composer package:
+
+```bash
+composer require firmapanel/trade-country-data
+```
+
+```php
+use FirmaPanel\TradeCountryData\TradeCountryData;
+
+$countries = TradeCountryData::loadDataset('countries');
+$turkiye = array_values(array_filter(
+    $countries['records'],
+    static fn (array $record): bool => $record['iso2'] === 'TR',
+))[0];
+
+print_r($turkiye['trade_group_ids']);
+```
+
+See the [Composer package documentation](packages/composer/README.md) for
+dataset, schema, CSV, and canonical file-path access.
 
 Fetch the same canonical data in JavaScript (Node.js 18 or later):
 

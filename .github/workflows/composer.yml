@@ -1,0 +1,58 @@
+name: Composer package
+
+on:
+  push:
+    paths:
+      - ".github/workflows/composer.yml"
+      - "composer.json"
+      - "packages/composer/**"
+      - "data/**"
+      - "schema/**"
+  pull_request:
+    paths:
+      - ".github/workflows/composer.yml"
+      - "composer.json"
+      - "packages/composer/**"
+      - "data/**"
+      - "schema/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: composer-package-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: PHP ${{ matrix.php-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        php-version:
+          - "8.1"
+          - "8.5"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: json
+          tools: composer:v2
+          coverage: none
+
+      - name: Validate Composer metadata
+        run: composer validate --strict --no-check-lock
+
+      - name: Generate optimized autoloader
+        run: composer dump-autoload --optimize --strict-psr
+
+      - name: Run package checks
+        run: composer test
