@@ -18,7 +18,9 @@ This directory contains the published FirmaPanel Trade Country Data snapshot.
 | `sources.json` | Canonical machine-readable source registry |
 
 All JSON documents use a metadata envelope containing `schema_version`,
-`as_of_date`, `record_count`, and `records`.
+`as_of_date`, `record_count`, and `records`. Official-resource records use
+`country_code` for a national resource or `country_codes` for an officially
+shared multi-country resource.
 
 Do not edit `countries.csv` directly. Change `countries.json`, run
 `python3 scripts/build_csv.py` from the repository root, and commit both files.

@@ -64,6 +64,10 @@ If an organization has been replaced, add or update source evidence and
 consider whether the stable record ID can remain. Removing or renaming an ID
 may require a major release.
 
+Use `country_code` for a resource serving one country. Use a sorted
+`country_codes` array only when the source explicitly supports multi-country
+scope, and link the shared resource ID from every covered country record.
+
 ## Release checklist
 
 - [ ] All data files share one `schema_version` and `as_of_date`.

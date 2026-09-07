@@ -4,7 +4,8 @@ message: >-
   the attribution required by the license.
 title: FirmaPanel Trade Country Data
 type: dataset
-version: 0.2.0
+version: 0.3.0
+date-released: 2026-09-07
 authors:
   - name: FirmaPanel
     website: https://firmapanel.com
@@ -31,7 +32,8 @@ preferred-citation:
   authors:
     - name: FirmaPanel
   title: FirmaPanel Trade Country Data
+  version: 0.3.0
   year: 2026
   publisher:
     name: FirmaPanel
-  url: https://github.com/FirmaPanel/trade-country-data
+  url: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.3.0

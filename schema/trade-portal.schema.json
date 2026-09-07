@@ -35,7 +35,6 @@
       "additionalProperties": false,
       "required": [
         "id",
-        "country_code",
         "name",
         "portal_type",
         "website",
@@ -50,6 +49,9 @@
         },
         "country_code": {
           "$ref": "common.schema.json#/$defs/iso2"
+        },
+        "country_codes": {
+          "$ref": "common.schema.json#/$defs/iso2Array"
         },
         "name": {
           "$ref": "common.schema.json#/$defs/nonEmptyString"
@@ -94,7 +96,29 @@
         "last_verified": {
           "$ref": "common.schema.json#/$defs/date"
         }
-      }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "country_code"
+          ],
+          "not": {
+            "required": [
+              "country_codes"
+            ]
+          }
+        },
+        {
+          "required": [
+            "country_codes"
+          ],
+          "not": {
+            "required": [
+              "country_code"
+            ]
+          }
+        }
+      ]
     }
   }
 }

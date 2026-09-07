@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.0",
-  "as_of_date": "2026-09-06",
-  "record_count": 23,
+  "schema_version": "0.3.0",
+  "as_of_date": "2026-09-07",
+  "record_count": 64,
   "records": [
     {
       "id": "ae-federal-authority-icp",
@@ -17,6 +17,30 @@
         "ae-customs"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ar-arca-customs",
+      "country_code": "AR",
+      "name": "Customs Directorate of ARCA",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.argentina.gob.ar/arca/aduana",
+      "languages": [],
+      "source_ids": [
+        "ar-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "at-customs",
+      "country_code": "AT",
+      "name": "Customs Authority Austria",
+      "authority_type": "customs-administration",
+      "website": "https://www.bmf.gv.at/en/topics/customs.html",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "au-australian-border-force",
@@ -50,6 +74,54 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "bg-national-customs-agency",
+      "country_code": "BG",
+      "name": "National Customs Agency",
+      "authority_type": "customs-administration",
+      "website": "https://customs.bg/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bh-customs-affairs",
+      "country_code": "BH",
+      "name": "Customs Affairs",
+      "authority_type": "customs-administration",
+      "website": "https://www.bahrain.bh/wps/portal/en/BNP/HereInBahrain/CustomsAndPorts",
+      "languages": [],
+      "source_ids": [
+        "bh-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bn-royal-customs",
+      "country_code": "BN",
+      "name": "Royal Customs and Excise Department",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.gov.bn/",
+      "languages": [],
+      "source_ids": [
+        "bn-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bo-national-customs",
+      "country_code": "BO",
+      "name": "National Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.aduana.gob.bo/",
+      "languages": [],
+      "source_ids": [
+        "bo-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "br-receita-federal",
       "country_code": "BR",
       "name": "Receita Federal do Brasil",
@@ -79,6 +151,21 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "ch-focbs",
+      "country_codes": [
+        "CH",
+        "LI"
+      ],
+      "name": "Federal Office for Customs and Border Security",
+      "authority_type": "border-and-customs-administration",
+      "website": "https://www.bazg.admin.ch/bazg/en/home.html",
+      "languages": [],
+      "source_ids": [
+        "ch-li-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "cn-general-administration-of-customs",
       "country_code": "CN",
       "name": "General Administration of Customs of the People's Republic of China",
@@ -92,6 +179,30 @@
         "cn-customs"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "cy-customs-and-excise",
+      "country_code": "CY",
+      "name": "Department of Customs and Excise",
+      "authority_type": "customs-administration",
+      "website": "https://www.mof.gov.cy/mof/customs/customs.nsf/index_en/index_en?OpenDocument",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "cz-customs-administration",
+      "country_code": "CZ",
+      "name": "Customs Administration of the Czech Republic",
+      "authority_type": "customs-administration",
+      "website": "https://celnisprava.gov.cz/en/Pages/default.aspx",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "de-german-customs",
@@ -109,6 +220,30 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "dk-customs-agency",
+      "country_code": "DK",
+      "name": "Danish Customs Agency",
+      "authority_type": "customs-administration",
+      "website": "https://toldst.dk/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ee-tax-and-customs-board",
+      "country_code": "EE",
+      "name": "Estonian Tax and Customs Board",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.emta.ee/en/business-client/customs-trade-goods",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "es-spanish-tax-agency-customs",
       "country_code": "ES",
       "name": "Spanish Tax Agency Customs Department",
@@ -122,6 +257,18 @@
         "es-customs"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "fi-customs",
+      "country_code": "FI",
+      "name": "Finnish Customs",
+      "authority_type": "customs-administration",
+      "website": "https://tulli.fi/en/frontpage",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "fr-directorate-general-of-customs",
@@ -152,6 +299,42 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "gr-independent-authority-public-revenue",
+      "country_code": "GR",
+      "name": "Independent Authority for Public Revenue",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.aade.gr/customs",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "hr-customs-administration",
+      "country_code": "HR",
+      "name": "Customs Administration",
+      "authority_type": "customs-administration",
+      "website": "https://carina.gov.hr/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "hu-national-tax-and-customs",
+      "country_code": "HU",
+      "name": "National Tax and Customs Administration",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://nav.gov.hu/en",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "id-directorate-general-of-customs-and-excise",
       "country_code": "ID",
       "name": "Directorate General of Customs and Excise",
@@ -167,6 +350,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "ie-revenue-customs",
+      "country_code": "IE",
+      "name": "Revenue Commissioners",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.revenue.ie/en/customs/index.aspx",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "in-central-board-of-indirect-taxes-and-customs",
       "country_code": "IN",
       "name": "Central Board of Indirect Taxes and Customs",
@@ -180,6 +375,18 @@
         "in-cbic"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "is-revenue-and-customs",
+      "country_code": "IS",
+      "name": "Iceland Revenue and Customs",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.skatturinn.is/english/",
+      "languages": [],
+      "source_ids": [
+        "is-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "it-customs-and-monopolies-agency",
@@ -212,6 +419,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "kh-customs-and-excise",
+      "country_code": "KH",
+      "name": "General Department of Customs and Excise",
+      "authority_type": "customs-administration",
+      "website": "https://customs.gov.kh/en/",
+      "languages": [],
+      "source_ids": [
+        "kh-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "kr-korea-customs-service",
       "country_code": "KR",
       "name": "Korea Customs Service",
@@ -227,6 +446,90 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "kw-general-customs",
+      "country_code": "KW",
+      "name": "General Administration of Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.gov.kw/",
+      "languages": [],
+      "source_ids": [
+        "kw-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "la-customs-department",
+      "country_code": "LA",
+      "name": "Customs Department",
+      "authority_type": "customs-administration",
+      "website": "https://www.laotradeportal.gov.la/en-gb/site/display/153",
+      "languages": [],
+      "source_ids": [
+        "la-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "lt-customs",
+      "country_code": "LT",
+      "name": "Customs of the Republic of Lithuania",
+      "authority_type": "customs-administration",
+      "website": "https://lrmuitine.lt/web/guest/titulinis",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "lu-customs-and-excise",
+      "country_code": "LU",
+      "name": "Customs and Excise Agency",
+      "authority_type": "customs-administration",
+      "website": "https://douanes.public.lu/fr.html",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "lv-state-revenue-service",
+      "country_code": "LV",
+      "name": "State Revenue Service",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.vid.gov.lv/en/customs",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "mm-customs-department",
+      "country_code": "MM",
+      "name": "Customs Department",
+      "authority_type": "customs-administration",
+      "website": "https://customs.gov.mm/?lang=en",
+      "languages": [],
+      "source_ids": [
+        "mm-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "mt-tax-and-customs",
+      "country_code": "MT",
+      "name": "Malta Tax and Customs Administration",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://mtca.gov.mt/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "mx-national-customs-agency",
       "country_code": "MX",
       "name": "National Customs Agency of Mexico",
@@ -239,6 +542,18 @@
         "mx-customs"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "my-royal-customs",
+      "country_code": "MY",
+      "name": "Royal Malaysian Customs Department",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.gov.my/en",
+      "languages": [],
+      "source_ids": [
+        "my-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "nl-customs-administration",
@@ -256,6 +571,114 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "no-customs",
+      "country_code": "NO",
+      "name": "Norwegian Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.toll.no/en/corporate/",
+      "languages": [],
+      "source_ids": [
+        "no-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "om-customs",
+      "country_code": "OM",
+      "name": "Directorate General of Customs",
+      "authority_type": "customs-administration",
+      "website": "https://customs.gov.om/",
+      "languages": [],
+      "source_ids": [
+        "om-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ph-bureau-of-customs",
+      "country_code": "PH",
+      "name": "Bureau of Customs",
+      "authority_type": "customs-administration",
+      "website": "https://customs.gov.ph/",
+      "languages": [],
+      "source_ids": [
+        "ph-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "pl-national-revenue-administration",
+      "country_code": "PL",
+      "name": "National Revenue Administration",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.podatki.gov.pl/en/customs/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "pt-tax-and-customs-authority",
+      "country_code": "PT",
+      "name": "Tax and Customs Authority",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Portal_Aduaneiro/Pages/default.aspx",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "py-dnit-customs",
+      "country_code": "PY",
+      "name": "National Directorate of Tax Revenue",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.dnit.gov.py/web/portal-institucional/aduanera",
+      "languages": [],
+      "source_ids": [
+        "py-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "qa-general-customs-authority",
+      "country_code": "QA",
+      "name": "General Authority of Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.gov.qa/English/Pages/default.aspx",
+      "languages": [],
+      "source_ids": [
+        "qa-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ro-customs-authority",
+      "country_code": "RO",
+      "name": "Romanian Customs Authority",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.ro/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ru-federal-customs-service",
+      "country_code": "RU",
+      "name": "Federal Customs Service",
+      "authority_type": "customs-administration",
+      "website": "https://eng.customs.gov.ru/",
+      "languages": [],
+      "source_ids": [
+        "ru-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "sa-zakat-tax-and-customs-authority",
       "country_code": "SA",
       "name": "Zakat, Tax and Customs Authority",
@@ -271,6 +694,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "se-customs",
+      "country_code": "SE",
+      "name": "Swedish Customs",
+      "authority_type": "customs-administration",
+      "website": "https://www.tullverket.se/en/startpage.4.7df61c5915510cfe9e7108c.html",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "sg-singapore-customs",
       "country_code": "SG",
       "name": "Singapore Customs",
@@ -283,6 +718,54 @@
         "sg-customs"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "si-financial-administration",
+      "country_code": "SI",
+      "name": "Financial Administration of the Republic of Slovenia",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.fu.gov.si/en/customs/",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "sk-financial-administration",
+      "country_code": "SK",
+      "name": "Financial Administration of the Slovak Republic",
+      "authority_type": "tax-and-customs-authority",
+      "website": "https://www.financnasprava.sk/en/homepage",
+      "languages": [],
+      "source_ids": [
+        "eu-national-customs-administrations"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "th-customs-department",
+      "country_code": "TH",
+      "name": "Customs Department",
+      "authority_type": "customs-administration",
+      "website": "https://www.customs.go.th/index.php?lang=en",
+      "languages": [],
+      "source_ids": [
+        "th-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "tl-customs-authority",
+      "country_code": "TL",
+      "name": "Customs Authority",
+      "authority_type": "customs-administration",
+      "website": "https://customs.gov.tl/",
+      "languages": [],
+      "source_ids": [
+        "tl-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "tr-general-directorate-of-customs",
@@ -312,6 +795,18 @@
         "us-cbp"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "uy-national-customs",
+      "country_code": "UY",
+      "name": "National Customs Directorate",
+      "authority_type": "customs-administration",
+      "website": "https://www.aduanas.gub.uy/",
+      "languages": [],
+      "source_ids": [
+        "uy-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "vn-viet-nam-customs",

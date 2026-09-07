@@ -246,6 +246,45 @@ class RelationshipValidatorTests(unittest.TestCase):
         self.assertTrue(any("invalid portal_type" in error for error in errors))
         self.assertTrue(any("duplicate websites" in error for error in errors))
 
+    def test_resources_accept_sorted_shared_country_scope(self) -> None:
+        resources = {
+            "shared": {
+                "country_codes": ["LI", "NO"],
+                "portal_type": "trade-information",
+                "website": "https://example.test/shared",
+            }
+        }
+        errors: list[str] = []
+        validate.validate_resources(
+            "trade_portals",
+            resources,
+            {"LI", "NO"},
+            validate.PORTAL_TYPES,
+            "portal_type",
+            errors,
+        )
+        self.assertEqual(errors, [])
+        self.assertEqual(validate.resource_country_codes(resources["shared"]), {"LI", "NO"})
+
+    def test_resources_reject_unsorted_or_partly_unknown_shared_scope(self) -> None:
+        resources = {
+            "shared": {
+                "country_codes": ["XX", "LI"],
+                "portal_type": "trade-information",
+            }
+        }
+        errors: list[str] = []
+        validate.validate_resources(
+            "trade_portals",
+            resources,
+            {"LI"},
+            validate.PORTAL_TYPES,
+            "portal_type",
+            errors,
+        )
+        self.assertTrue(any("unknown country" in error for error in errors))
+        self.assertTrue(any("must be sorted" in error for error in errors))
+
 
 class CountryValidatorTests(unittest.TestCase):
     def base_resources(self) -> dict[str, dict[str, dict[str, str]]]:
@@ -284,6 +323,65 @@ class CountryValidatorTests(unittest.TestCase):
             errors,
         )
         self.assertEqual(errors, [])
+
+    def test_validate_countries_accepts_shared_resources(self) -> None:
+        country_li = {
+            "iso3": "LIE",
+            "numeric_code": "438",
+            "currency_codes": ["CHF"],
+            "region_id": None,
+            "subregion_id": None,
+            "intermediate_region_id": None,
+            "trade_group_ids": [],
+            "wto_member": False,
+            "customs_relationship_ids": [],
+            "customs_authority_id": "shared-auth",
+            "standards_body_id": "shared-standards",
+            "trade_portal_ids": ["shared-portal"],
+            "trade_agency_ids": ["shared-agency"],
+        }
+        country_ch = country_li | {
+            "iso3": "CHE",
+            "numeric_code": "756",
+        }
+        shared = {"country_codes": ["CH", "LI"]}
+        resources = {
+            "customs_authorities": {"shared-auth": shared},
+            "standards_bodies": {"shared-standards": shared},
+            "trade_portals": {"shared-portal": shared},
+            "trade_agencies": {"shared-agency": shared},
+        }
+        errors: list[str] = []
+        validate.validate_countries(
+            {"CH": country_ch, "LI": country_li},
+            {},
+            {},
+            {"CH": set(), "LI": set()},
+            {},
+            {"CH": set(), "LI": set()},
+            resources,
+            errors,
+        )
+        self.assertEqual(errors, [])
+
+        country_ch = country_ch | {"trade_portal_ids": []}
+        validate.validate_countries(
+            {"CH": country_ch, "LI": country_li},
+            {},
+            {},
+            {"CH": set(), "LI": set()},
+            {},
+            {"CH": set(), "LI": set()},
+            resources,
+            errors,
+        )
+        self.assertTrue(
+            any(
+                "trade_portals resource 'shared-portal' is not linked from countries: CH"
+                in error
+                for error in errors
+            )
+        )
 
     def test_countries_report_formats_references_and_orphans(self) -> None:
         countries = {
@@ -362,7 +460,7 @@ class CountryValidatorTests(unittest.TestCase):
             "unknown customs relationship",
             "customs_relationship_ids does not match",
             "references unknown ID",
-            "references another country",
+            "does not serve this country",
             "duplicate ISO alpha-3",
             "duplicate numeric codes",
             "resources not linked",

@@ -1,6 +1,7 @@
 # FirmaPanel Trade Country Data
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-2f6f4e.svg)](LICENSE)
+[![Release: v0.3.0](https://img.shields.io/badge/release-v0.3.0-blue.svg)](https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.3.0)
 [![Dataset checks](https://github.com/FirmaPanel/trade-country-data/actions/workflows/validate.yml/badge.svg)](https://github.com/FirmaPanel/trade-country-data/actions/workflows/validate.yml)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)](CONTRIBUTING.md)
 
@@ -36,7 +37,7 @@ that should be obtained from a current legal or operational source.
 
 ## Snapshot and coverage
 
-The current `v0.2.0`-maturity snapshot has an `as_of_date` of **2026-09-06**.
+The current release is `v0.3.0`, with an `as_of_date` of **2026-09-07**.
 Coverage figures are calculated from the committed data:
 
 | Dataset area | Coverage |
@@ -48,10 +49,10 @@ Coverage figures are calculated from the committed data:
 | Country/customs-territory WTO members | 165 |
 | Trade groups and agreements | 11 |
 | Customs relationships | 5 |
-| Countries with a verified customs authority | 23 |
-| Countries with a verified official trade portal | 23 |
-| Countries with a verified trade agency | 23 |
-| Countries with a verified national standards body | 23 |
+| Countries with a verified customs authority | 65 |
+| Countries with a verified official trade portal | 65 |
+| Countries with a verified trade agency | 65 |
+| Countries with a verified national standards body | 65 |
 
 Print the calculated table or verify that these published figures are current:
 
@@ -63,10 +64,10 @@ python3 scripts/report_coverage.py --check
 Official-resource coverage is intentionally conservative. Missing records use
 `null` or an empty array and never a fabricated placeholder.
 
-The reviewed official-resource set covers Australia, Belgium, Brazil, Canada,
-China, France, Germany, India, Indonesia, Italy, Japan, Mexico, the Netherlands,
-Saudi Arabia, Singapore, South Africa, South Korea, Spain, Türkiye, the United
-Arab Emirates, the United Kingdom, the United States, and Viet Nam.
+The reviewed official-resource set covers 65 countries. It now includes every
+EU member state and every direct-country member in the G20, EFTA, GCC, ASEAN,
+and the active MERCOSUR state-party set represented by this snapshot. Shared
+official services are modeled once and linked to each country they serve.
 
 The `landlocked` field is also conservative in this release. The 32 entries
 marked `true` are supported by the UN M49 Land Locked Developing Countries
@@ -93,8 +94,8 @@ Every JSON file has the same dataset envelope:
 
 ```json
 {
-  "schema_version": "0.2.0",
-  "as_of_date": "2026-09-06",
+  "schema_version": "0.3.0",
+  "as_of_date": "2026-09-07",
   "record_count": 249,
   "records": []
 }

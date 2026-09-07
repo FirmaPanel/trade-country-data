@@ -84,8 +84,11 @@ A membership has `type`, `id`, and `status`, with optional `effective_from` and
 
 ## Official-resource fields
 
-All resource records include a stable `id`, ISO alpha-2 `country_code`, `name`,
-HTTPS `website`, `source_ids`, and `last_verified`.
+All resource records include a stable `id`, `name`, HTTPS `website`,
+`source_ids`, and `last_verified`. A resource scoped to one country uses the
+ISO alpha-2 `country_code` field. A resource officially serving multiple
+countries uses a sorted, unique `country_codes` array instead. Exactly one of
+those two scope fields is required.
 
 - Customs authorities add a controlled `authority_type` and language codes.
 - Trade portals add a controlled `portal_type`, topics, and language codes.

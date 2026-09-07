@@ -105,17 +105,22 @@ that all goods receive identical treatment.
 ## Official resources
 
 Official authorities, portals, agencies, and standards bodies are added only
-after their identity and website have been verified. The reviewed v0.2.0 set
-covers 23 countries across four resource categories: customs authority,
+after their identity and website have been verified. The reviewed v0.3.0 set
+covers 65 countries across four resource categories: customs authority,
 official trade portal, trade agency, and national standards body.
 
-The coverage set comprises Australia, Belgium, Brazil, Canada, China, France,
-Germany, India, Indonesia, Italy, Japan, Mexico, the Netherlands, Saudi Arabia,
-Singapore, South Africa, South Korea, Spain, Türkiye, the United Arab Emirates,
-the United Kingdom, the United States, and Viet Nam. Each non-standards record
-cites a first-party government or organization page in `data/sources.json`.
-National standards-body identity is cross-checked against the
-[ISO members list](https://www.iso.org/about/members).
+The coverage set includes every EU member state and every direct-country member
+in the G20, EFTA, GCC, ASEAN, and the active MERCOSUR state-party set
+represented by this snapshot. Each non-standards record cites a first-party
+government or organization page in `data/sources.json`. National standards-body
+identity is cross-checked against the
+[ISO members list](https://www.iso.org/about/members), with separate
+authoritative evidence for Liechtenstein and Timor-Leste.
+
+An official resource serving multiple countries is stored once with a
+`country_codes` scope. This is used for EU-wide Access2Markets and Enterprise
+Europe Network services and for documented Switzerland-Liechtenstein customs,
+export-promotion, and standardization arrangements.
 
 Resource records contain a `last_verified` date. A working URL alone is not
 enough: the page must demonstrate the organization's role or the portal's

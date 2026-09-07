@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.0",
-  "as_of_date": "2026-09-06",
-  "record_count": 23,
+  "schema_version": "0.3.0",
+  "as_of_date": "2026-09-07",
+  "record_count": 44,
   "records": [
     {
       "id": "ae-central-customs-tariff-system",
@@ -23,6 +23,21 @@
         "ae-customs-tariff"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ar-arca-customs-trade-guidance",
+      "country_code": "AR",
+      "name": "Customs Directorate of ARCA trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.argentina.gob.ar/arca/aduana",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "ar-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "au-business-government-exporting",
@@ -64,6 +79,51 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "bh-customs-affairs-trade-guidance",
+      "country_code": "BH",
+      "name": "Customs Affairs trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.bahrain.bh/wps/portal/en/BNP/HereInBahrain/CustomsAndPorts",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "bh-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bn-royal-customs-trade-guidance",
+      "country_code": "BN",
+      "name": "Royal Customs and Excise Department trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.customs.gov.bn/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "bn-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bo-national-customs-trade-guidance",
+      "country_code": "BO",
+      "name": "National Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.aduana.gob.bo/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "bo-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "br-siscomex",
       "country_code": "BR",
       "name": "Siscomex Portal",
@@ -103,6 +163,24 @@
         "ca-trade-commissioner"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ch-focbs-trade-guidance",
+      "country_codes": [
+        "CH",
+        "LI"
+      ],
+      "name": "Federal Office for Customs and Border Security trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.bazg.admin.ch/bazg/en/home.html",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "ch-li-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "cn-international-trade-single-window",
@@ -164,6 +242,53 @@
         "es-icex"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "eu-access2markets",
+      "country_codes": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "name": "Access2Markets",
+      "portal_type": "trade-information",
+      "website": "https://trade.ec.europa.eu/access-to-markets/en/home",
+      "topics": [
+        "export",
+        "import",
+        "market-information",
+        "tariffs",
+        "trade-regulations"
+      ],
+      "languages": [],
+      "source_ids": [
+        "eu-access2markets"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "fr-business-france-export",
@@ -247,6 +372,21 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "is-revenue-and-customs-trade-guidance",
+      "country_code": "IS",
+      "name": "Iceland Revenue and Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.skatturinn.is/english/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "is-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "it-italian-trade-agency",
       "country_code": "IT",
       "name": "Italian Trade Agency",
@@ -287,6 +427,21 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "kh-customs-and-excise-trade-guidance",
+      "country_code": "KH",
+      "name": "General Department of Customs and Excise trade guidance",
+      "portal_type": "customs",
+      "website": "https://customs.gov.kh/en/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "kh-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "kr-kotra",
       "country_code": "KR",
       "name": "Korea Trade-Investment Promotion Agency",
@@ -305,6 +460,51 @@
         "kr-kotra"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "kw-general-customs-trade-guidance",
+      "country_code": "KW",
+      "name": "General Administration of Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.customs.gov.kw/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "kw-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "la-customs-department-trade-guidance",
+      "country_code": "LA",
+      "name": "Customs Department trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.laotradeportal.gov.la/en-gb/site/display/153",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "la-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "mm-customs-department-trade-guidance",
+      "country_code": "MM",
+      "name": "Customs Department trade guidance",
+      "portal_type": "customs",
+      "website": "https://customs.gov.mm/?lang=en",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "mm-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "mx-snice",
@@ -329,6 +529,21 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "my-royal-customs-trade-guidance",
+      "country_code": "MY",
+      "name": "Royal Malaysian Customs Department trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.customs.gov.my/en",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "my-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "nl-business-government-international",
       "country_code": "NL",
       "name": "Business.gov.nl international business",
@@ -348,6 +563,96 @@
         "nl-business-government"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "no-customs-trade-guidance",
+      "country_code": "NO",
+      "name": "Norwegian Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.toll.no/en/corporate/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "no-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "om-customs-trade-guidance",
+      "country_code": "OM",
+      "name": "Directorate General of Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://customs.gov.om/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "om-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ph-bureau-of-customs-trade-guidance",
+      "country_code": "PH",
+      "name": "Bureau of Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://customs.gov.ph/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "ph-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "py-dnit-customs-trade-guidance",
+      "country_code": "PY",
+      "name": "National Directorate of Tax Revenue trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.dnit.gov.py/web/portal-institucional/aduanera",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "py-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "qa-general-customs-authority-trade-guidance",
+      "country_code": "QA",
+      "name": "General Authority of Customs trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.customs.gov.qa/English/Pages/default.aspx",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "qa-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ru-federal-customs-service-trade-guidance",
+      "country_code": "RU",
+      "name": "Federal Customs Service trade guidance",
+      "portal_type": "customs",
+      "website": "https://eng.customs.gov.ru/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "ru-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "sa-fasah",
@@ -390,6 +695,36 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "th-customs-department-trade-guidance",
+      "country_code": "TH",
+      "name": "Customs Department trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.customs.go.th/index.php?lang=en",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "th-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "tl-customs-authority-trade-guidance",
+      "country_code": "TL",
+      "name": "Customs Authority trade guidance",
+      "portal_type": "customs",
+      "website": "https://customs.gov.tl/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "tl-customs"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "tr-easy-export-platform",
       "country_code": "TR",
       "name": "Easy Export Platform",
@@ -426,6 +761,21 @@
         "us-trade-gov"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "uy-national-customs-trade-guidance",
+      "country_code": "UY",
+      "name": "National Customs Directorate trade guidance",
+      "portal_type": "customs",
+      "website": "https://www.aduanas.gub.uy/",
+      "topics": [
+        "customs"
+      ],
+      "languages": [],
+      "source_ids": [
+        "uy-customs"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "vn-viet-nam-trade-information-portal",

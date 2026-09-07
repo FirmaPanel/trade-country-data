@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.0",
-  "as_of_date": "2026-09-06",
-  "record_count": 23,
+  "schema_version": "0.3.0",
+  "as_of_date": "2026-09-07",
+  "record_count": 64,
   "records": [
     {
       "id": "ae-ministry-of-industry-and-advanced-technology",
@@ -14,6 +14,30 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ar-iram",
+      "country_code": "AR",
+      "name": "Argentine Institute for Standardization and Certification",
+      "acronym": "IRAM",
+      "organization_type": "national-standards-body",
+      "website": "https://www.iram.org.ar/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "at-asi",
+      "country_code": "AT",
+      "name": "Austrian Standards International",
+      "acronym": "ASI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.austrian-standards.at/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "au-standards-australia",
@@ -40,6 +64,54 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "bg-bds",
+      "country_code": "BG",
+      "name": "Bulgarian Institute for Standardization",
+      "acronym": "BDS",
+      "organization_type": "national-standards-body",
+      "website": "https://bds-bg.org/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bh-btmd",
+      "country_code": "BH",
+      "name": "Bahrain Testing and Metrology Directorate",
+      "acronym": "BTMD",
+      "organization_type": "national-standards-body",
+      "website": "https://www.moic.gov.bh/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bn-psabd",
+      "country_code": "BN",
+      "name": "Pusat Standard dan Akreditasi Brunei Darussalam",
+      "acronym": "PSABD",
+      "organization_type": "national-standards-body",
+      "website": "https://www.mofe.gov.bn/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bo-ibnorca",
+      "country_code": "BO",
+      "name": "Bolivian Institute for Standardization and Quality",
+      "acronym": "IBNORCA",
+      "organization_type": "national-standards-body",
+      "website": "https://www.ibnorca.org/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "br-brazilian-association-of-technical-standards",
       "country_code": "BR",
       "name": "Associação Brasileira de Normas Técnicas",
@@ -64,6 +136,22 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "ch-snv",
+      "country_codes": [
+        "CH",
+        "LI"
+      ],
+      "name": "Swiss Association for Standardization",
+      "acronym": "SNV",
+      "organization_type": "national-standards-body",
+      "website": "https://www.snv.ch/en/",
+      "source_ids": [
+        "efta-standardisation",
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "cn-standardization-administration-of-china",
       "country_code": "CN",
       "name": "Standardization Administration of China",
@@ -74,6 +162,30 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "cy-cys",
+      "country_code": "CY",
+      "name": "Cyprus Organization for Standardization",
+      "acronym": "CYS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.cys.org.cy/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "cz-unmz",
+      "country_code": "CZ",
+      "name": "Czech Office for Standards, Metrology and Testing",
+      "acronym": "UNMZ",
+      "organization_type": "national-standards-body",
+      "website": "https://www.unmz.cz/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "de-din",
@@ -88,6 +200,30 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "dk-ds",
+      "country_code": "DK",
+      "name": "Danish Standards Foundation",
+      "acronym": "DS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.ds.dk/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ee-evs",
+      "country_code": "EE",
+      "name": "Estonian Centre for Standardisation and Accreditation",
+      "acronym": "EVS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.evs.ee/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "es-spanish-association-for-standardization",
       "country_code": "ES",
       "name": "Spanish Association for Standardization",
@@ -98,6 +234,18 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "fi-sfs",
+      "country_code": "FI",
+      "name": "Finnish Standards Association SFS",
+      "acronym": "SFS",
+      "organization_type": "national-standards-body",
+      "website": "https://sfs.fi/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "fr-french-standardization-association",
@@ -124,6 +272,42 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "gr-elot",
+      "country_code": "GR",
+      "name": "Hellenic Organization for Standardization",
+      "acronym": "ELOT",
+      "organization_type": "national-standards-body",
+      "website": "https://www.elot.gr/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "hr-hzn",
+      "country_code": "HR",
+      "name": "Croatian Standards Institute",
+      "acronym": "HZN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.hzn.hr/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "hu-mszt",
+      "country_code": "HU",
+      "name": "Hungarian Standards Institution",
+      "acronym": "MSZT",
+      "organization_type": "national-standards-body",
+      "website": "https://www.mszt.hu/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "id-national-standardization-agency",
       "country_code": "ID",
       "name": "National Standardization Agency of Indonesia",
@@ -136,6 +320,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "ie-nsai",
+      "country_code": "IE",
+      "name": "National Standards Authority of Ireland",
+      "acronym": "NSAI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.nsai.ie/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "in-bureau-of-indian-standards",
       "country_code": "IN",
       "name": "Bureau of Indian Standards",
@@ -146,6 +342,18 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "is-ist",
+      "country_code": "IS",
+      "name": "Icelandic Standards",
+      "acronym": "IST",
+      "organization_type": "national-standards-body",
+      "website": "https://www.stadlar.is/english",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "it-italian-standardization-body",
@@ -172,6 +380,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "kh-isc",
+      "country_code": "KH",
+      "name": "Institute of Standards of Cambodia",
+      "acronym": "ISC",
+      "organization_type": "national-standards-body",
+      "website": "https://www.isc.gov.kh/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "kr-korean-agency-for-technology-and-standards",
       "country_code": "KR",
       "name": "Korean Agency for Technology and Standards",
@@ -182,6 +402,90 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "kw-kowsmd",
+      "country_code": "KW",
+      "name": "Standards and Metrology Department, Public Authority for Industry",
+      "acronym": "KOWSMD",
+      "organization_type": "national-standards-body",
+      "website": "https://www.pai.gov.kw/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "la-dosm",
+      "country_code": "LA",
+      "name": "Department of Standardization and Metrology",
+      "acronym": "DOSM",
+      "organization_type": "national-standards-body",
+      "website": "https://www.moic.gov.la/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "lt-lasa",
+      "country_code": "LT",
+      "name": "Lithuanian Accreditation and Standardization Agency",
+      "acronym": "LASA",
+      "organization_type": "national-standards-body",
+      "website": "https://lasa.lrv.lt/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "lu-ilnas",
+      "country_code": "LU",
+      "name": "Luxembourg Institute for Standardisation, Accreditation, Safety and Quality of Products and Services",
+      "acronym": "ILNAS",
+      "organization_type": "national-standards-body",
+      "website": "https://portail-qualite.public.lu/fr.html",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "lv-lvs",
+      "country_code": "LV",
+      "name": "Latvian Standard",
+      "acronym": "LVS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.lvs.lv/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "mm-dri",
+      "country_code": "MM",
+      "name": "Department of Research and Innovation",
+      "acronym": "DRI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.dri.gov.mm/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "mt-mccaa",
+      "country_code": "MT",
+      "name": "Malta Competition and Consumer Affairs Authority",
+      "acronym": "MCCAA",
+      "organization_type": "national-standards-body",
+      "website": "https://mccaa.org.mt/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "mx-general-bureau-of-standards",
@@ -196,6 +500,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "my-dsm",
+      "country_code": "MY",
+      "name": "Department of Standards Malaysia",
+      "acronym": "DSM",
+      "organization_type": "national-standards-body",
+      "website": "https://www.jsm.gov.my/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "nl-royal-netherlands-standardization-institute",
       "country_code": "NL",
       "name": "Royal Netherlands Standardization Institute",
@@ -206,6 +522,114 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "no-sn",
+      "country_code": "NO",
+      "name": "Standards Norway",
+      "acronym": "SN",
+      "organization_type": "national-standards-body",
+      "website": "https://standard.no/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "om-dgsm",
+      "country_code": "OM",
+      "name": "Directorate General for Standards and Metrology",
+      "acronym": "DGSM",
+      "organization_type": "national-standards-body",
+      "website": "https://tejarah.gov.om/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ph-bps",
+      "country_code": "PH",
+      "name": "Bureau of Philippine Standards",
+      "acronym": "BPS",
+      "organization_type": "national-standards-body",
+      "website": "https://bps.dti.gov.ph/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "pl-pkn",
+      "country_code": "PL",
+      "name": "Polish Committee for Standardization",
+      "acronym": "PKN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.pkn.pl/en",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "pt-ipq",
+      "country_code": "PT",
+      "name": "Portuguese Institute for Quality",
+      "acronym": "IPQ",
+      "organization_type": "national-standards-body",
+      "website": "https://www.ipq.pt/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "py-intn",
+      "country_code": "PY",
+      "name": "National Institute of Technology, Standardization and Metrology",
+      "acronym": "INTN",
+      "organization_type": "national-standards-body",
+      "website": "https://www.intn.gov.py/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "qa-qs",
+      "country_code": "QA",
+      "name": "Qatar General Organization for Standardization",
+      "acronym": "QS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.moci.gov.qa/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ro-asro",
+      "country_code": "RO",
+      "name": "Romanian Standards Association",
+      "acronym": "ASRO",
+      "organization_type": "national-standards-body",
+      "website": "https://www.asro.ro/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ru-gost-r",
+      "country_code": "RU",
+      "name": "Federal Agency on Technical Regulating and Metrology",
+      "acronym": "GOST R",
+      "organization_type": "national-standards-body",
+      "website": "https://www.rst.gov.ru/portal/gost/home/standarts",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "sa-saudi-standards-metrology-and-quality-organization",
@@ -220,6 +644,18 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "se-sis",
+      "country_code": "SE",
+      "name": "Swedish Institute for Standards",
+      "acronym": "SIS",
+      "organization_type": "national-standards-body",
+      "website": "https://www.sis.se/en/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "sg-singapore-standards-council",
       "country_code": "SG",
       "name": "Singapore Standards Council, Enterprise Singapore",
@@ -230,6 +666,54 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "si-sist",
+      "country_code": "SI",
+      "name": "Slovenian Institute for Standardization",
+      "acronym": "SIST",
+      "organization_type": "national-standards-body",
+      "website": "https://www.sist.si/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "sk-unms",
+      "country_code": "SK",
+      "name": "Slovak Office of Standards, Metrology and Testing",
+      "acronym": "UNMS SR",
+      "organization_type": "national-standards-body",
+      "website": "https://www.normoff.gov.sk/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "th-tisi",
+      "country_code": "TH",
+      "name": "Thai Industrial Standards Institute",
+      "acronym": "TISI",
+      "organization_type": "national-standards-body",
+      "website": "https://www.tisi.go.th/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "tl-iqtl",
+      "country_code": "TL",
+      "name": "Institute of Quality of Timor-Leste",
+      "acronym": "IQTL",
+      "organization_type": "national-standards-body",
+      "website": "https://iqtl.gov.tl/en/",
+      "source_ids": [
+        "tl-iqtl"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "tr-turkish-standards-institution",
@@ -254,6 +738,18 @@
         "iso-members"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "uy-unit",
+      "country_code": "UY",
+      "name": "Uruguayan Institute of Technical Standards",
+      "acronym": "UNIT",
+      "organization_type": "national-standards-body",
+      "website": "https://www.unit.org.uy/",
+      "source_ids": [
+        "iso-members"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "vn-commission-for-standards-metrology-and-quality",

@@ -65,6 +65,10 @@ organization's official role, prefer a durable HTTPS landing page, and set
 `last_verified` to the date of that review. Do not add a placeholder to improve
 coverage metrics.
 
+Use `country_codes` instead of `country_code` only when the cited evidence
+establishes that one resource officially serves every listed country. Keep the
+array sorted and link the shared record from each covered country.
+
 ## AI-assisted work
 
 AI tools may help research or draft a contribution, but contributors remain

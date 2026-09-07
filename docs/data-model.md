@@ -46,6 +46,14 @@ organization IDs in an untyped string array. Each reference declares its target:
 The validator confirms that the target exists in the declared dataset family,
 detects duplicates, and rejects circular trade-group references.
 
+## Shared official resources
+
+Most official-resource records use one `country_code`. When an authoritative
+source establishes that the same organization or service officially covers
+multiple countries, the record uses one sorted `country_codes` array instead.
+Country records can then reference that shared ID without duplicating the
+resource or implying separate national organizations.
+
 ## Time and status
 
 The dataset-level `as_of_date` describes a coherent snapshot. Individual

@@ -8,11 +8,24 @@ principles for a versioned dataset.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-07
+
 ### Added
 
 - A dependency-free coverage reporter that verifies README metrics against the
   canonical datasets.
 - Unit and CLI regression tests with measured branch coverage enforced in CI.
+- Complete four-category official-resource records for 42 additional
+  countries: the remaining 21 EU members and 21 direct-country members across
+  the G20, EFTA, GCC, MERCOSUR, and ASEAN coverage targets.
+- A backward-compatible `country_codes` scope for resources officially shared
+  by multiple countries.
+
+### Changed
+
+- Expanded complete customs-authority, official-portal, trade-agency, and
+  standards-body coverage from 23 to 65 countries.
+- Advanced all dataset envelopes to `0.3.0` with an `as_of_date` of 2026-09-07.
 
 ## [0.2.0] - 2026-09-06
 
@@ -61,6 +74,7 @@ principles for a versioned dataset.
 - One ISO-assigned entry has no separate current UN M49 table row, and two
   records consequently have no UN M49 regional assignment.
 
-[Unreleased]: https://github.com/FirmaPanel/trade-country-data/commits/main
+[Unreleased]: https://github.com/FirmaPanel/trade-country-data/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.3.0
 [0.2.0]: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.2.0
 [0.1.0]: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.1.0

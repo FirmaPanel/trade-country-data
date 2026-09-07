@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.0",
-  "as_of_date": "2026-09-06",
-  "record_count": 23,
+  "schema_version": "0.3.0",
+  "as_of_date": "2026-09-07",
+  "record_count": 44,
   "records": [
     {
       "id": "ae-ministry-of-economy-and-tourism",
@@ -19,6 +19,23 @@
         "ae-export-development"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ar-aaici",
+      "country_code": "AR",
+      "name": "Argentine Investment and International Trade Agency",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.inversionycomercio.ar/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "ar-trade-agency"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "au-austrade",
@@ -55,6 +72,51 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "bh-export-bahrain",
+      "country_code": "BH",
+      "name": "Export Bahrain",
+      "agency_type": "export-promotion",
+      "website": "https://export.bh/",
+      "services": [
+        "export-guidance",
+        "market-information"
+      ],
+      "source_ids": [
+        "bh-export-bahrain"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bn-ministry-economy-trade",
+      "country_code": "BN",
+      "name": "Ministry of Economy, Trade and Industry",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.bruneitrade.mofe.gov.bn/",
+      "services": [
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "bn-trade"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "bo-senavex",
+      "country_code": "BO",
+      "name": "National Export Verification Service",
+      "agency_type": "government-trade-agency",
+      "website": "https://senavex.gob.bo/",
+      "services": [
+        "export-guidance"
+      ],
+      "source_ids": [
+        "bo-senavex"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "br-apexbrasil",
       "country_code": "BR",
       "name": "Brazilian Trade and Investment Promotion Agency",
@@ -89,6 +151,27 @@
         "ca-trade-commissioner"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "ch-s-ge",
+      "country_codes": [
+        "CH",
+        "LI"
+      ],
+      "name": "Switzerland Global Enterprise",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.s-ge.com/export/en",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "ch-li-export-promotion"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "cn-ccpit",
@@ -139,6 +222,51 @@
         "es-icex"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "eu-enterprise-europe-network",
+      "country_codes": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "name": "Enterprise Europe Network",
+      "agency_type": "trade-promotion",
+      "website": "https://int.een.ec.europa.eu/about-enterprise-europe-network/advice-and-support/internationalisation",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "eu-enterprise-europe-network"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "fr-business-france",
@@ -211,6 +339,23 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "is-business-iceland",
+      "country_code": "IS",
+      "name": "Business Iceland",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.islandsstofa.is/en/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "is-business-iceland"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "it-italian-trade-agency",
       "country_code": "IT",
       "name": "Italian Trade Agency",
@@ -247,6 +392,22 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "kh-export-service-center",
+      "country_code": "KH",
+      "name": "Export Service Center",
+      "agency_type": "government-trade-agency",
+      "website": "https://exportservicecenter.moc.gov.kh/en",
+      "services": [
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "kh-export-service-center"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "kr-kotra",
       "country_code": "KR",
       "name": "Korea Trade-Investment Promotion Agency",
@@ -265,6 +426,51 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "kw-kdipa",
+      "country_code": "KW",
+      "name": "Kuwait Direct Investment Promotion Authority",
+      "agency_type": "investment-promotion",
+      "website": "https://kdipa.gov.kw/",
+      "services": [
+        "investment-support"
+      ],
+      "source_ids": [
+        "kw-kdipa"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "la-foreign-trade-department",
+      "country_code": "LA",
+      "name": "Department of Foreign Trade",
+      "agency_type": "government-trade-agency",
+      "website": "https://www.moic.gov.la/en/departments/foreign-trade",
+      "services": [
+        "export-guidance",
+        "market-information"
+      ],
+      "source_ids": [
+        "la-foreign-trade"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "mm-myantrade",
+      "country_code": "MM",
+      "name": "Myanmar Trade Promotion Organization",
+      "agency_type": "trade-promotion",
+      "website": "https://myantrade.gov.mm/about-us",
+      "services": [
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "mm-myantrade"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "mx-secretariat-of-economy",
       "country_code": "MX",
       "name": "Secretariat of Economy",
@@ -279,6 +485,23 @@
         "mx-secretariat-economy"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "my-matrade",
+      "country_code": "MY",
+      "name": "Malaysia External Trade Development Corporation",
+      "agency_type": "export-promotion",
+      "website": "https://www.matrade.gov.my/",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "my-matrade"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "nl-netherlands-enterprise-agency",
@@ -297,6 +520,101 @@
         "nl-rvo"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "no-innovation-norway",
+      "country_code": "NO",
+      "name": "Innovation Norway",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.innovasjonnorge.no/en/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information"
+      ],
+      "source_ids": [
+        "no-innovation-norway"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "om-commerce-ministry",
+      "country_code": "OM",
+      "name": "Ministry of Commerce, Industry and Investment Promotion",
+      "agency_type": "government-trade-agency",
+      "website": "https://tejarah.gov.om/",
+      "services": [
+        "export-guidance",
+        "investment-support"
+      ],
+      "source_ids": [
+        "om-commerce"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ph-export-marketing-bureau",
+      "country_code": "PH",
+      "name": "Export Marketing Bureau",
+      "agency_type": "government-trade-agency",
+      "website": "https://tradelinephilippines.dti.gov.ph/web/tradeline-portal/dti-export-marketing-bureau",
+      "services": [
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "ph-export-marketing"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "py-rediex",
+      "country_code": "PY",
+      "name": "Investment and Export Network",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.rediex.gov.py/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "py-rediex"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "qa-invest-qatar",
+      "country_code": "QA",
+      "name": "Invest Qatar",
+      "agency_type": "investment-promotion",
+      "website": "https://www.invest.qa/en",
+      "services": [
+        "investment-support",
+        "market-information"
+      ],
+      "source_ids": [
+        "qa-invest"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "ru-export-center",
+      "country_code": "RU",
+      "name": "Russian Export Center",
+      "agency_type": "export-promotion",
+      "website": "https://www.exportcenter.ru/en/",
+      "services": [
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "ru-export-center"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "sa-saudi-export-development-authority",
@@ -333,6 +651,38 @@
       "last_verified": "2026-09-06"
     },
     {
+      "id": "th-ditp",
+      "country_code": "TH",
+      "name": "Department of International Trade Promotion",
+      "agency_type": "trade-promotion",
+      "website": "https://www.ditp.go.th/en",
+      "services": [
+        "buyer-seller-matching",
+        "export-guidance",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "th-ditp"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
+      "id": "tl-tradeinvest",
+      "country_code": "TL",
+      "name": "TradeInvest Timor-Leste",
+      "agency_type": "trade-and-investment",
+      "website": "https://tradeinvest.tl/",
+      "services": [
+        "export-guidance",
+        "investment-support"
+      ],
+      "source_ids": [
+        "tl-tradeinvest"
+      ],
+      "last_verified": "2026-09-07"
+    },
+    {
       "id": "tr-turkiye-exporters-assembly",
       "country_code": "TR",
       "name": "Türkiye Exporters Assembly",
@@ -365,6 +715,23 @@
         "us-trade-gov"
       ],
       "last_verified": "2026-09-06"
+    },
+    {
+      "id": "uy-uruguay-xxi",
+      "country_code": "UY",
+      "name": "Uruguay XXI",
+      "agency_type": "trade-and-investment",
+      "website": "https://www.uruguayxxi.gub.uy/en/",
+      "services": [
+        "export-guidance",
+        "investment-support",
+        "market-information",
+        "trade-events"
+      ],
+      "source_ids": [
+        "uy-uruguay-xxi"
+      ],
+      "last_verified": "2026-09-07"
     },
     {
       "id": "vn-vietrade",

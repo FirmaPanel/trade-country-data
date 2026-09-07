@@ -49,3 +49,60 @@ class ValidateSchemasTests(unittest.TestCase):
         self.assertEqual(result, 1)
         self.assertIn("JSON Schema validation failed", error.getvalue())
         self.assertIn("sample.json:name", error.getvalue())
+
+    def test_resource_scope_requires_exactly_one_country_field(self) -> None:
+        schemas = {
+            path.name: validate_schemas.load_json(path)
+            for path in validate_schemas.SCHEMA_DIR.glob("*.schema.json")
+        }
+        registry = validate_schemas.Registry()
+        for schema in schemas.values():
+            registry = registry.with_resource(
+                schema["$id"], validate_schemas.Resource.from_contents(schema)
+            )
+        validator = validate_schemas.Draft202012Validator(
+            schemas["trade-portal.schema.json"], registry=registry
+        )
+        record = {
+            "id": "shared-portal",
+            "name": "Shared portal",
+            "portal_type": "trade-information",
+            "website": "https://example.test/portal",
+            "topics": ["export"],
+            "languages": ["en"],
+            "source_ids": ["source"],
+            "last_verified": "2026-09-07",
+        }
+
+        def envelope(scoped_record: dict[str, object]) -> dict[str, object]:
+            return {
+                "schema_version": "0.3.0",
+                "as_of_date": "2026-09-07",
+                "record_count": 1,
+                "records": [scoped_record],
+            }
+
+        self.assertFalse(
+            list(validator.iter_errors(envelope(record | {"country_code": "TR"})))
+        )
+        self.assertFalse(
+            list(
+                validator.iter_errors(
+                    envelope(record | {"country_codes": ["CH", "LI"]})
+                )
+            )
+        )
+        self.assertTrue(list(validator.iter_errors(envelope(record))))
+        self.assertTrue(
+            list(
+                validator.iter_errors(
+                    envelope(
+                        record
+                        | {
+                            "country_code": "CH",
+                            "country_codes": ["CH", "LI"],
+                        }
+                    )
+                )
+            )
+        )

@@ -16,6 +16,14 @@
       "type": "string",
       "pattern": "^[A-Z]{2}$"
     },
+    "iso2Array": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/iso2"
+      },
+      "uniqueItems": true
+    },
     "iso3": {
       "type": "string",
       "pattern": "^[A-Z]{3}$"
