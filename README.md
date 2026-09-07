@@ -12,6 +12,12 @@ sourcing, and import-export software.
 **Direct downloads:** [Raw JSON](https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.json)
 · [Raw CSV](https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.csv)
 
+**npm:** `npm install @firmapanel/trade-country-data`
+
+**PyPI:** `python -m pip install firmapanel-trade-country-data`
+
+**FirmaPanel tools:** [Free procurement and import-export tools](https://firmapanel.com/tools)
+
 **DOI:** [10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118)
 
 This project is not another general-purpose list of capitals, flags, calling
@@ -127,6 +133,23 @@ print(turkiye["trade_group_ids"])
 print(turkiye["customs_relationship_ids"])
 ```
 
+Or install the dependency-free Python package:
+
+```bash
+python -m pip install firmapanel-trade-country-data
+```
+
+```python
+from firmapanel_trade_country_data import load_dataset
+
+countries = load_dataset("countries")
+turkiye = next(record for record in countries["records"] if record["iso2"] == "TR")
+print(turkiye["trade_group_ids"])
+```
+
+See the [PyPI package documentation](packages/pypi/README.md) for dataset,
+schema, and CSV access.
+
 Fetch the same canonical data in JavaScript (Node.js 18 or later):
 
 ```javascript
@@ -144,6 +167,24 @@ const turkiye = records.find((record) => record.iso2 === "TR");
 console.log(turkiye.trade_group_ids);
 console.log(turkiye.customs_relationship_ids);
 ```
+
+Or install the zero-dependency npm package, which includes TypeScript types and
+supports both ESM and CommonJS:
+
+```bash
+npm install @firmapanel/trade-country-data
+```
+
+```javascript
+import { countries, tradeGroups } from "@firmapanel/trade-country-data";
+
+const turkiye = countries.records.find((record) => record.iso2 === "TR");
+console.log(turkiye.trade_group_ids);
+console.log(tradeGroups.as_of_date);
+```
+
+Raw JSON, CSV, and JSON Schema files are also exported. See the
+[npm package documentation](packages/npm/README.md) for all entry points.
 
 Or query the published JSON without cloning:
 

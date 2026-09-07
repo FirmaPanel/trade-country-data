@@ -5,6 +5,7 @@ This guide describes the review and release workflow for maintainers.
 ## Prerequisites
 
 - Python 3.9 or later for build and integrity checks;
+- Node.js 18 or later for npm package checks;
 - packages from `requirements-dev.txt` for JSON Schema validation; and
 - direct access to every source affected by a proposed change.
 
@@ -12,6 +13,7 @@ Install the development dependencies:
 
 ```bash
 python3 -m pip install -r requirements-dev.txt
+python3 -m pip install build twine
 ```
 
 ## Editing data
@@ -76,6 +78,12 @@ scope, and link the shared resource ID from every covered country record.
 - [ ] Membership and customs statuses reflect effective dates.
 - [ ] `countries.csv` is regenerated and synchronized.
 - [ ] `make check` passes on every supported Python version.
+- [ ] The npm package's `datasetVersion` matches the dataset `schema_version`.
+- [ ] The npm package `version` is ready for a new, unpublished npm release.
+- [ ] `make npm-check` and `make npm-pack` pass.
+- [ ] The PyPI package's `DATASET_VERSION` matches `schema_version`.
+- [ ] The PyPI package `version` is ready for a new, unpublished PyPI release.
+- [ ] `make pypi-check` and `make pypi-build` pass.
 - [ ] Documentation and examples match the schema.
 - [ ] `CHANGELOG.md` records coverage, limitations, and notable changes.
 - [ ] Source licenses and attribution obligations have been reviewed.
@@ -83,3 +91,26 @@ scope, and link the shared resource ID from every covered country record.
 Tag a `v0.x` release until the stability criteria in the README are met. Release
 notes should state the as-of date, schema version, record counts, coverage, and
 known limitations.
+
+Publishing a GitHub release automatically publishes the matching npm package.
+The workflow refuses to publish when the release tag and npm package version
+disagree, or when the declared bundled dataset does not match the canonical
+schema version. For the package's one-time initial publication, run:
+
+```bash
+cd packages/npm
+npm login
+npm publish --access public
+```
+
+After the package exists, configure its npm trusted publisher for the GitHub
+repository `FirmaPanel/trade-country-data`, workflow `publish-npm.yml`, with
+direct publishing allowed. The workflow uses npm's short-lived OIDC credentials
+and publishes provenance without a repository token.
+
+The Python package is published through PyPI trusted publishing. For its first
+release, create a pending publisher for project `firmapanel-trade-country-data`
+with owner `FirmaPanel`, repository `trade-country-data`, workflow
+`publish-pypi.yml`, and environment `pypi`. Then run the workflow manually from
+the repository's default branch. Later matching GitHub releases publish both
+package formats automatically.

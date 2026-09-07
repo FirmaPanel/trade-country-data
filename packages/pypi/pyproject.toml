@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "build_backend"
+backend-path = ["."]
+
+[project]
+name = "firmapanel-trade-country-data"
+version = "0.3.0"
+description = "Trade-focused country reference data for procurement, logistics, customs, sourcing, and import-export software."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "CC-BY-4.0"
+license-files = ["LICENSE", "ATTRIBUTION.md"]
+authors = [
+  { name = "FirmaPanel" },
+]
+maintainers = [
+  { name = "FirmaPanel" },
+]
+keywords = [
+  "countries",
+  "customs",
+  "international-trade",
+  "iso-3166",
+  "logistics",
+  "procurement",
+  "reference-data",
+  "trade",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://firmapanel.com/tools"
+Repository = "https://github.com/FirmaPanel/trade-country-data"
+Issues = "https://github.com/FirmaPanel/trade-country-data/issues"
+Changelog = "https://github.com/FirmaPanel/trade-country-data/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/FirmaPanel/trade-country-data#readme"
+Publisher = "https://pypi.org/user/firmapanel/"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+firmapanel_trade_country_data = [
+  "ATTRIBUTION.md",
+  "data/*.csv",
+  "data/*.json",
+  "py.typed",
+  "schema/*.json",
+]
+
+[tool.firmapanel]
+dataset-version = "0.3.0"

@@ -1,0 +1,69 @@
+{
+  "name": "@firmapanel/trade-country-data",
+  "version": "0.3.1",
+  "datasetVersion": "0.3.0",
+  "description": "Trade-focused country reference data for procurement, logistics, customs, sourcing, and import-export software.",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "FirmaPanel",
+    "url": "https://firmapanel.com"
+  },
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "require": "./index.cjs"
+    },
+    "./data/*.json": "./generated/data/*.json",
+    "./countries.csv": "./generated/data/countries.csv",
+    "./schema/*.json": "./generated/schema/*.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.cjs",
+    "index.d.ts",
+    "index.js",
+    "generated/data",
+    "generated/schema",
+    "ATTRIBUTION.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "npm run build && node --test",
+    "pack:check": "npm pack --dry-run",
+    "prepack": "npm run check"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FirmaPanel/trade-country-data.git",
+    "directory": "packages/npm"
+  },
+  "homepage": "https://firmapanel.com/tools",
+  "bugs": {
+    "url": "https://github.com/FirmaPanel/trade-country-data/issues"
+  },
+  "keywords": [
+    "countries",
+    "customs",
+    "international-trade",
+    "iso-3166",
+    "logistics",
+    "procurement",
+    "reference-data",
+    "trade"
+  ]
+}

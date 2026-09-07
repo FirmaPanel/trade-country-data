@@ -1,0 +1,59 @@
+name: npm package
+
+on:
+  push:
+    paths:
+      - ".github/workflows/npm.yml"
+      - "packages/npm/**"
+      - "data/**"
+      - "schema/**"
+      - "ATTRIBUTION.md"
+      - "LICENSE"
+  pull_request:
+    paths:
+      - ".github/workflows/npm.yml"
+      - "packages/npm/**"
+      - "data/**"
+      - "schema/**"
+      - "ATTRIBUTION.md"
+      - "LICENSE"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: npm-package-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Node.js ${{ matrix.node-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version:
+          - "18"
+          - "24"
+
+    defaults:
+      run:
+        working-directory: packages/npm
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node-version }}
+          package-manager-cache: false
+
+      - name: Check package
+        run: npm run check
+
+      - name: Inspect package contents
+        run: npm pack --dry-run

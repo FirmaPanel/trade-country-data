@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: build check coverage report-coverage test validate validate-schemas
+.PHONY: build check coverage npm-check npm-pack pypi-build pypi-check report-coverage test validate validate-schemas
 
 build:
 	$(PYTHON) scripts/build_csv.py
@@ -21,6 +21,21 @@ coverage:
 	$(PYTHON) -m coverage erase
 	$(PYTHON) -m coverage run -m unittest discover -s tests -v
 	$(PYTHON) -m coverage report
+
+npm-check:
+	cd packages/npm && npm run check
+
+npm-pack:
+	cd packages/npm && npm run pack:check
+
+pypi-check:
+	cd packages/pypi && $(PYTHON) scripts/build_package.py
+	cd packages/pypi && $(PYTHON) scripts/build_package.py --check
+	cd packages/pypi && $(PYTHON) scripts/check_version.py
+	cd packages/pypi && PYTHONPATH=src $(PYTHON) -m unittest discover -s tests -v
+
+pypi-build: pypi-check
+	cd packages/pypi && $(PYTHON) -m build
 
 check:
 	$(PYTHON) scripts/build_csv.py --check

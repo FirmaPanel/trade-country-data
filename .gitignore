@@ -18,6 +18,15 @@ venv/
 htmlcov/
 build/
 dist/
+packages/npm/generated/
+packages/npm/ATTRIBUTION.md
+packages/npm/LICENSE
+packages/pypi/ATTRIBUTION.md
+packages/pypi/LICENSE
+packages/pypi/src/firmapanel_trade_country_data/ATTRIBUTION.md
+packages/pypi/src/firmapanel_trade_country_data/data/
+packages/pypi/src/firmapanel_trade_country_data/schema/
+*.egg-info/
 
 # Editor settings
 .idea/

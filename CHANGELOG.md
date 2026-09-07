@@ -8,6 +8,17 @@ principles for a versioned dataset.
 
 ## [Unreleased]
 
+### Added
+
+- A publish-ready `@firmapanel/trade-country-data` npm package under
+  `packages/npm`, with ESM, CommonJS, TypeScript, and raw data/schema entry
+  points. Its initial packaging release is `0.3.1` and bundles dataset `0.3.0`.
+- Automated npm package validation and trusted-publishing release workflows.
+- A `firmapanel-trade-country-data` Python package under `packages/pypi`, with
+  dependency-free dataset, schema, and CSV access plus typed package metadata.
+- Automated wheel and source-distribution validation and trusted PyPI
+  publishing with OIDC.
+
 ## [0.3.0] - 2026-09-07
 
 ### Added
