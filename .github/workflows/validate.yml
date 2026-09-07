@@ -41,6 +41,9 @@ jobs:
       - name: Check generated country export
         run: python scripts/build_csv.py --check
 
+      - name: Check documented coverage metrics
+        run: python scripts/report_coverage.py --check
+
       - name: Validate dataset integrity
         run: python scripts/validate.py
 
@@ -49,3 +52,8 @@ jobs:
 
       - name: Compile maintenance scripts
         run: python -m compileall -q scripts
+
+      - name: Run unit tests with coverage
+        run: |
+          python -m coverage run -m unittest discover -s tests -v
+          python -m coverage report

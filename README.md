@@ -53,6 +53,13 @@ Coverage figures are calculated from the committed data:
 | Countries with a verified trade agency | 23 |
 | Countries with a verified national standards body | 23 |
 
+Print the calculated table or verify that these published figures are current:
+
+```bash
+python3 scripts/report_coverage.py
+python3 scripts/report_coverage.py --check
+```
+
 Official-resource coverage is intentionally conservative. Missing records use
 `null` or an empty array and never a fabricated placeholder.
 
@@ -241,12 +248,21 @@ make check
 The checks verify:
 
 - every JSON document against JSON Schema Draft 2020-12;
+- coverage metrics in this README against the canonical JSON;
 - dataset metadata, controlled values, dates, IDs, and HTTPS URLs;
 - unique ISO codes, record IDs, members, participants, and resource URLs;
 - every country, group, relationship, region, resource, and source reference;
 - consistency between WTO flags and WTO group membership;
 - absence of prohibited volatile data fields; and
 - byte-for-byte synchronization of canonical JSON and generated CSV.
+
+Run the unit suite with measured branch coverage:
+
+```bash
+make coverage
+```
+
+Continuous integration requires at least 95% total coverage.
 
 Do not edit `data/countries.csv` directly. Edit the canonical JSON, run
 `python3 scripts/build_csv.py`, and commit both files. See the
@@ -260,6 +276,7 @@ trade-country-data/
 ├── docs/                  # Field, model, source, maintenance, and legal guides
 ├── schema/                # JSON Schema Draft 2020-12 contracts
 ├── scripts/               # Build and validation utilities
+├── tests/                 # Unit and CLI regression tests
 ├── .github/               # CI workflow and contribution templates
 ├── SOURCES.md             # Human-readable provenance methodology
 ├── ATTRIBUTION.md         # Reuse and attribution guidance

@@ -8,6 +8,12 @@ principles for a versioned dataset.
 
 ## [Unreleased]
 
+### Added
+
+- A dependency-free coverage reporter that verifies README metrics against the
+  canonical datasets.
+- Unit and CLI regression tests with measured branch coverage enforced in CI.
+
 ## [0.2.0] - 2026-09-06
 
 ### Added

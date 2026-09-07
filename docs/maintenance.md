@@ -21,7 +21,8 @@ python3 -m pip install -r requirements-dev.txt
 3. Update the data record and `data/sources.json` when provenance changes.
 4. Preserve sort order and stable IDs.
 5. If `countries.json` changed, rebuild the CSV.
-6. Run the complete check before review.
+6. Update the README coverage table when calculated metrics changed.
+7. Run the complete check before review.
 
 ```bash
 python3 scripts/build_csv.py
@@ -29,6 +30,8 @@ make check
 ```
 
 `build_csv.py --check` is non-mutating and is used by continuous integration.
+`report_coverage.py --check` similarly verifies that README coverage figures
+match the canonical datasets.
 
 ## Adding a country or area
 
