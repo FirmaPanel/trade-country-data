@@ -159,7 +159,11 @@ composer require firmapanel/trade-country-data
 ```
 
 ```php
+<?php
+
 use FirmaPanel\TradeCountryData\TradeCountryData;
+
+require __DIR__ . '/vendor/autoload.php';
 
 $countries = TradeCountryData::loadDataset('countries');
 $turkiye = array_values(array_filter(
@@ -168,6 +172,7 @@ $turkiye = array_values(array_filter(
 ))[0];
 
 print_r($turkiye['trade_group_ids']);
+print_r($turkiye['customs_relationship_ids']);
 ```
 
 See the [Composer package documentation](packages/composer/README.md) for
