@@ -11,6 +11,9 @@ authors:
     website: https://firmapanel.com
 repository-code: https://github.com/FirmaPanel/trade-country-data
 url: https://firmapanel.com
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22639118
 license: CC-BY-4.0
 abstract: >-
   Trade-focused country reference data for procurement, logistics, customs,
@@ -33,7 +36,8 @@ preferred-citation:
     - name: FirmaPanel
   title: FirmaPanel Trade Country Data
   version: 0.3.0
+  doi: 10.5281/zenodo.22639118
   year: 2026
   publisher:
     name: FirmaPanel
-  url: https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.3.0
+  url: https://doi.org/10.5281/zenodo.22639118

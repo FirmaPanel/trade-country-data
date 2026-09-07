@@ -20,6 +20,8 @@ principles for a versioned dataset.
   the G20, EFTA, GCC, MERCOSUR, and ASEAN coverage targets.
 - A backward-compatible `country_codes` scope for resources officially shared
   by multiple countries.
+- A persistent Zenodo archive for `v0.3.0` under
+  [DOI 10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118).
 
 ### Changed
 

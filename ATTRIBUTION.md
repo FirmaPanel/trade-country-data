@@ -12,6 +12,8 @@ available under its included MIT License.
 - **Creator:** [FirmaPanel](https://firmapanel.com)
 - **Canonical source:**
   [github.com/FirmaPanel/trade-country-data](https://github.com/FirmaPanel/trade-country-data)
+- **DOI:**
+  [10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118)
 - **License:**
   [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 - **Copyright notice:** © 2026 FirmaPanel and contributors
@@ -21,16 +23,16 @@ available under its included MIT License.
 When sharing the dataset or a substantial portion, use this attribution where
 reasonably practicable:
 
-> FirmaPanel Trade Country Data by [FirmaPanel](https://firmapanel.com),
-> available from
-> [github.com/FirmaPanel/trade-country-data](https://github.com/FirmaPanel/trade-country-data),
+> FirmaPanel Trade Country Data, version 0.3.0, by
+> [FirmaPanel](https://firmapanel.com),
+> [https://doi.org/10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118),
 > licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 Plain-text form:
 
 ```text
-FirmaPanel Trade Country Data by FirmaPanel (https://firmapanel.com),
-available at https://github.com/FirmaPanel/trade-country-data,
+FirmaPanel Trade Country Data, version 0.3.0, by FirmaPanel
+(https://firmapanel.com), https://doi.org/10.5281/zenodo.22639118,
 licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
 ```
 

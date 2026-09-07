@@ -1,6 +1,7 @@
 # FirmaPanel Trade Country Data
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-2f6f4e.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22639118.svg)](https://doi.org/10.5281/zenodo.22639118)
 [![Release: v0.3.0](https://img.shields.io/badge/release-v0.3.0-blue.svg)](https://github.com/FirmaPanel/trade-country-data/releases/tag/v0.3.0)
 [![Dataset checks](https://github.com/FirmaPanel/trade-country-data/actions/workflows/validate.yml/badge.svg)](https://github.com/FirmaPanel/trade-country-data/actions/workflows/validate.yml)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)](CONTRIBUTING.md)
@@ -10,6 +11,8 @@ sourcing, and import-export software.
 
 **Direct downloads:** [Raw JSON](https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.json)
 · [Raw CSV](https://raw.githubusercontent.com/FirmaPanel/trade-country-data/main/data/countries.csv)
+
+**DOI:** [10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118)
 
 This project is not another general-purpose list of capitals, flags, calling
 codes, or time zones. It connects stable country identifiers to currencies,
@@ -323,9 +326,9 @@ and [ATTRIBUTION.md](ATTRIBUTION.md).
 
 Preferred attribution:
 
-> FirmaPanel Trade Country Data by [FirmaPanel](https://firmapanel.com),
-> available from
-> [github.com/FirmaPanel/trade-country-data](https://github.com/FirmaPanel/trade-country-data),
+> FirmaPanel Trade Country Data, version 0.3.0, by
+> [FirmaPanel](https://firmapanel.com),
+> [https://doi.org/10.5281/zenodo.22639118](https://doi.org/10.5281/zenodo.22639118),
 > licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Disclaimer
